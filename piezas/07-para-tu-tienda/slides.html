@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 07 · Tu vitrina también las quiere — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .s1 .photo { inset: 0 0 auto 0; height: 960px; }
+  .s1 .photo img { object-position: 50% 44%; transform: scale(1.0); }
+  .s1 .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.7) 0%, rgba(20,16,13,0) 22%, rgba(20,16,13,0) 55%, #14100d 100%); }
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; z-index: 6; }
+  .s1 h1 { font-size: 112px; }
+  .s1 h1 em { font-style: normal; color: #ff4a3d; display: block; }
+  .s1 .sub { margin-top: 28px; font: 500 34px/1.35 var(--sans); color: rgba(255,255,255,.88); max-width: 640px; }
+
+  /* 2 · Lista para exhibir */
+  .s2 .photo { left: var(--pad); top: 160px; width: 470px; height: 700px; border-radius: 34px; box-shadow: 0 26px 50px rgba(20,16,13,.35); }
+  .s2 .t { position: absolute; left: 600px; right: var(--pad); top: 180px; }
+  .s2 h2 { font-size: 72px; }
+  .s2 .t p { margin-top: 24px; font: 400 32px/1.4 var(--sans); }
+  .s2 .feat { position: absolute; left: var(--pad); right: var(--pad); top: 940px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px 30px; }
+  .s2 .feat div { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: center; margin-bottom: 14px; font: 600 31px/1.25 var(--sans); }
+  .s2 .feat .ic { width: 56px; height: 56px; border-radius: 50%; background: var(--red); color: #fff; padding: 12px; }
+
+  /* 3 · Por qué */
+  .s3 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s3 h2 { font-size: 98px; }
+  .s3 .grid { position: absolute; left: var(--pad); right: var(--pad); top: 500px; display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .s3 .card { background: rgba(255,255,255,.1); border: 2.5px solid rgba(255,255,255,.35); border-radius: 34px; padding: 40px 36px; min-height: 330px; display: flex; flex-direction: column; gap: 18px; }
+  .s3 .card .ic { width: 84px; height: 84px; padding: 20px; border-radius: 50%; background: #fff; color: var(--red); }
+  .s3 .card b { font: 400 42px/1.05 var(--display); }
+  .s3 .card span { font: 400 27px/1.35 var(--sans); opacity: .92; }
+
+  /* 4 · Cómo trabajamos */
+  .s4 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s4 h2 { font-size: 104px; }
+  .s4 ol { position: absolute; left: var(--pad); right: var(--pad); top: 470px; list-style: none; display: grid; gap: 52px; }
+  .s4 li { display: grid; grid-template-columns: 120px 1fr; gap: 30px; align-items: center; }
+  .s4 li .n { width: 120px; height: 120px; border-radius: 50%; background: var(--red); color: #fff; font: 400 66px/1 var(--display); display: grid; place-items: center; }
+  .s4 li b { display: block; font: 400 50px/1.05 var(--display); margin-bottom: 8px; }
+  .s4 li span:not(.n) { font: 400 32px/1.35 var(--sans); color: #4a3f33; }
+
+  /* 5 · Cierre */
+  .s5 .t { position: absolute; left: var(--pad); right: var(--pad); top: 190px; }
+  .s5 h2 { font-size: 124px; } .s5 h2 em { font-style: normal; color: #ff4a3d; }
+  .s5 .body { position: absolute; left: var(--pad); right: var(--pad); top: 600px; max-width: 880px; opacity: .92; }
+  .s5 .chips { position: absolute; left: var(--pad); right: var(--pad); top: 790px; display: flex; flex-wrap: wrap; gap: 14px; }
+  .s5 .chips span { border: 3px solid rgba(255,255,255,.7); border-radius: 999px; padding: 14px 28px; font: 700 30px/1 var(--sans); }
+  .s5 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; flex-direction: column; gap: 22px; }
+  .s5 .cta .num-wa { font-size: 60px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-ink on-dark s1" data-file="07-tienda-1.png" data-n="07" data-i="1" data-of="5">
+  <div class="photo grade"><img src="../../assets/photos/bandeja-etiqueta.jpg" alt="Bandeja de empanadas con etiqueta de la marca"></div>
+  <div class="t">
+    <div class="kick" style="margin-bottom:24px">Tiendas · supermercados · cafeterías</div>
+    <h1 class="display">Tu vitrina también<em>las quiere.</em></h1>
+    <p class="sub">Empanadas al horno con marca propia, listas para tu nevera.</p>
+  </div>
+</section>
+
+<!-- 2 · LISTA PARA EXHIBIR -->
+<section class="slide bg-cream s2" data-file="07-tienda-2.png" data-n="07" data-i="2" data-of="5">
+  <div class="photo grade"><img src="../../assets/photos/bandeja-etiqueta.jpg" style="object-position:50% 44%" alt="Bandeja x5 lista para exhibir"></div>
+  <div class="t"><div class="kick red" style="margin-bottom:20px">El producto</div><h2 class="display">Lista para<br>exhibir.</h2><p>Bandeja x5 empacada y con etiqueta de marca, para que tu cliente la reconozca.</p></div>
+  <div class="feat">
+    <div><i class="ic" data-ic="check"></i>Bandeja x5 congelada</div>
+    <div><i class="ic" data-ic="check"></i>Etiqueta con contacto</div>
+    <div><i class="ic" data-ic="check"></i>9 sabores + lasaña</div>
+    <div><i class="ic" data-ic="check"></i>Bajas en grasa</div>
+  </div>
+</section>
+
+<!-- 3 · POR QUÉ -->
+<section class="slide bg-red hearts s3" data-file="07-tienda-3.png" data-n="07" data-i="3" data-of="5">
+  <div class="t"><div class="kick" style="margin-bottom:22px">Por qué sí</div><h2 class="display">Lo que tu cliente<br>va a notar.</h2></div>
+  <div class="grid">
+    <div class="card"><i class="ic" data-ic="flame"></i><b>Al horno</b><span>La empanada que no se fríe. Y se nota en la etiqueta.</span></div>
+    <div class="card"><i class="ic" data-ic="box"></i><b>Variedad</b><span>Nueve sabores y lasaña de res o de pechuga.</span></div>
+    <div class="card"><i class="ic" data-ic="pin"></i><b>Marca local</b><span>De Cajicá, con quien puedes hablar directo.</span></div>
+    <div class="card"><i class="ic" data-ic="snow"></i><b>Congeladas</b><span>Prácticas de almacenar y de ofrecer.</span></div>
+  </div>
+</section>
+
+<!-- 4 · CÓMO TRABAJAMOS -->
+<section class="slide bg-tan s4" data-file="07-tienda-4.png" data-n="07" data-i="4" data-of="5">
+  <div class="t"><div class="kick red" style="margin-bottom:22px">Cómo trabajamos</div><h2 class="display">Tres pasos<br>y listo.</h2></div>
+  <ol>
+    <li><span class="n">1</span><div><b>Escríbenos</b><span>Cuéntanos de tu negocio por WhatsApp.</span></div></li>
+    <li><span class="n">2</span><div><b>Recibe precios</b><span>Te enviamos nuestra lista al por mayor.</span></div></li>
+    <li><span class="n">3</span><div><b>Coordinamos</b><span>Pedido, entrega y forma de pago.</span></div></li>
+  </ol>
+</section>
+
+<!-- 5 · CIERRE -->
+<section class="slide bg-ink on-dark s5" data-file="07-tienda-5.png" data-n="07" data-i="5" data-of="5" data-last>
+  <div class="t"><div class="kick" style="margin-bottom:22px">Hablemos</div><h2 class="display">¿Tienes una<br>tienda? <em>Escríbenos.</em></h2></div>
+  <p class="body">Pregunta por nuestros precios al por mayor. Te respondemos con la lista y las condiciones.</p>
+  <div class="chips"><span>Tiendas</span><span>Supermercados</span><span>Cafeterías</span><span>Distribuidores</span></div>
+  <div class="cta"><span class="wa lg"><i class="ic" data-ic="wa"></i>Escríbenos por WhatsApp</span><div class="num-wa">300 516 2421</div></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

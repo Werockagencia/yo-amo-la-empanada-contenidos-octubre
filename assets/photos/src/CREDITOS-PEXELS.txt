@@ -1,0 +1,5 @@
+Fotos de stock usadas como "foto referencial" de la lasaña en el sitio (reemplazar por fotos reales del cliente cuando existan).
+Licencia Pexels: uso comercial gratuito, sin atribución obligatoria.
+- https://www.pexels.com/photo/13823542/  (lasaña en capas, plato blanco)
+- https://www.pexels.com/photo/5724557/   (lasaña en bandeja de aluminio, vista cenital)
+- https://www.pexels.com/photo/34474026/  (lasaña con queso estirado, porción levantada; en uso en el sitio como lasana-queso.webp)

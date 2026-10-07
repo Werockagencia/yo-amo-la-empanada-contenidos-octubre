@@ -1,0 +1,20 @@
+nivel,nombre,objetivo,ubicacion_conversion,evento_optimizacion,publico,presupuesto_diario_cop_ejemplo,pieza,formato,cta,url_o_mensaje
+campana,META_Ventas-Web_Prospecting_Congelados_2026-10,Ventas,Sitio web,Contact (fallback: vistas de pagina de destino),,,,,,
+conjunto,AS_Abierto-B2C_Sabana-Cercana,,,,Advantage+ · 25-55 · Cajicá/Chía/Sopó/Tabio/Tenjo/Cota,37500,,,,
+anuncio,AD_Carrusel-A_Bandeja-Congelador_V1,,,,,,ads/carrusel-a-bandeja-del-congelador,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-a_{{ad.name}}
+anuncio,AD_Carrusel-A_Bandeja-Congelador_V2,,,,,,ads/carrusel-a-bandeja-del-congelador,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-a_{{ad.name}}
+anuncio,AD_Carrusel-A_Bandeja-Congelador_V3,,,,,,ads/carrusel-a-bandeja-del-congelador,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-a_{{ad.name}}
+anuncio,AD_Carrusel-B_Se-Estira_V1,,,,,,ads/carrusel-b-se-estira,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-b_{{ad.name}}
+anuncio,AD_Carrusel-B_Se-Estira_V2,,,,,,ads/carrusel-b-se-estira,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-b_{{ad.name}}
+anuncio,AD_Carrusel-B_Se-Estira_V3,,,,,,ads/carrusel-b-se-estira,Carrusel 6 · 4:5 y 1:1,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=carrusel-b_{{ad.name}}
+anuncio,AD_Reel-1_[tema]_V1,,,,,,(en edicion),Video 9:16,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=reel-1_{{ad.name}}
+anuncio,AD_Reel-2_[tema]_V1,,,,,,(en edicion),Video 9:16,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_ventas-web&utm_content=reel-2_{{ad.name}}
+campana,META_Ventas-Web_Retargeting_Congelados_2026-10,Ventas,Sitio web,Contact,,,,,,
+conjunto,AS_Retargeting_Interaccion-y-Visitantes,,,,Interaccion IG/FB 90d + visitantes 14-30d (excluye compradores),15000,,,,
+anuncio,AD_Resenas_N08,,,,,,piezas/08-lo-que-dicen,Carrusel 6 · 4:5,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_retargeting&utm_content=resenas_{{ad.name}}
+anuncio,AD_Cuenta-Clara_N05,,,,,,piezas/05-la-cuenta-de-la-bandeja,Carrusel 5 · 4:5,Pedir ahora,https://yoamolaempanada.com/?utm_source={{site_source_name}}&utm_medium=paid_social&utm_campaign=cong-oct26_retargeting&utm_content=cuenta_{{ad.name}}
+campana,META_Mensajes-WA_B2B_Tiendas-y-Eventos_2026-10,Interaccion · Mensajes,WhatsApp,Conversaciones,,,,,,
+conjunto,AS_Tiendas_Sabana,,,,Cajicá/Chía/Zipaquirá/Sopó · 28-60 · pequeños negocios (sugerencia),4000,,,,
+anuncio,AD_Tienda_N07,,,,,,piezas/07-para-tu-tienda,Carrusel 5 · 4:5,Enviar mensaje de WhatsApp,"Hola, tengo una tienda y quiero información de precios al por mayor."
+conjunto,AS_Eventos_Sabana,,,,Cajicá/Chía/Zipaquirá/Sopó · 25-55 · eventos y celebraciones (sugerencia),3500,,,,
+anuncio,AD_Reunion_N06,,,,,,piezas/06-para-tu-proxima-reunion,Carrusel 6 · 4:5,Enviar mensaje de WhatsApp,"Hola, quiero cotizar empanadas para un evento."

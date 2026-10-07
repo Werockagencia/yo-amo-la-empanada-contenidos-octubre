@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 01 · No las freímos. Las horneamos. — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .cover .photo { top: 0; left: 0; right: 0; height: 820px; }
+  .cover .photo img { object-position: 50% 45%; }
+  .cover .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.55) 0%, rgba(20,16,13,0) 24%, rgba(20,16,13,0) 52%, #14100d 100%); }
+  .cover .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; }
+  .cover h1 { font-size: 112px; letter-spacing: -.02em; }
+  .cover h1 span { display: block; }
+  .cover .sub { margin-top: 30px; font: 500 36px/1.35 var(--sans); color: rgba(255,255,255,.86); max-width: 800px; }
+
+  /* 2 · Lo que cambia */
+  .s2 .t { top: 200px; } .s2 h2 { font-size: 108px; }
+  .s2 h2 { font-size: 124px; }
+  .s2 h2 em { display: block; font-style: normal; color: #ffd9a0; }
+  .s2 .plato { position: absolute; left: 50%; bottom: 0; width: 940px; transform: translateX(-50%); filter: drop-shadow(0 30px 40px rgba(60,0,0,.45)); z-index: 3; }
+  .s2 .body { max-width: 620px; font-size: 38px; }
+
+  /* 3 · Bajas en grasa */
+  .s3 .photo img { object-position: 50% 55%; transform: scale(1.1); }
+  .s3 h2 { font-size: 92px; }
+  .s3 .seal { position: absolute; right: 64px; top: 560px; z-index: 12; }
+
+  /* 4 · Nueve sabores */
+  .s4 .t { top: 232px; }
+  .s4 h2 { font-size: 118px; }
+  .s4 .hearts9 { position: absolute; left: var(--pad); right: var(--pad); top: 520px; display: grid; grid-template-columns: repeat(9, 1fr); gap: 8px; }
+  .s4 .hearts9 .hn { width: 88px; height: 82px; }
+  .s4 .list { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; }
+  .s4 .strip { position: absolute; left: var(--pad); right: var(--pad); top: 640px; height: 340px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .s4 .strip div { border-radius: 26px; overflow: hidden; box-shadow: 0 16px 30px rgba(20,16,13,.22); }
+  .s4 .strip img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* 5 · Cierre */
+  .s5 .lg-logo { position: absolute; top: 170px; left: 0; right: 0; display: flex; justify-content: center; }
+  .s5 h2 { position: absolute; left: var(--pad); right: var(--pad); top: 390px; text-align: center; font-size: 150px; }
+  .s5 .plato { position: absolute; left: 50%; bottom: 250px; width: 620px; transform: translateX(-50%); filter: drop-shadow(0 26px 34px rgba(60,0,0,.45)); }
+  .s5 .cta { position: absolute; left: 0; right: 0; top: 610px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+  .s5 .addr { position: absolute; left: var(--pad); right: var(--pad); bottom: 120px; text-align: center; font: 500 30px/1.45 var(--sans); }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-ink on-dark cover" data-file="01-no-las-freimos-1.png" data-n="01" data-i="1" data-of="5">
+  <div class="photo grade"><img src="../../assets/photos/emp-corte-res.jpg" alt="Empanada de res al horno partida, con el relleno a la vista"></div>
+  <div class="t">
+    <div class="kick" style="margin-bottom:22px">Manifiesto</div>
+    <h1 class="display"><span>No las freímos.</span><span style="color:#ff4a3d">Las horneamos.</span></h1>
+  </div>
+</section>
+
+<!-- 2 · LO QUE CAMBIA -->
+<section class="slide bg-red hearts s2 C" data-file="01-no-las-freimos-2.png" data-n="01" data-i="2" data-of="5">
+  <div class="t">
+    <div class="kick" style="margin-bottom:28px">Lo que cambia</div>
+    <h2 class="display">La misma empanada de siempre.<em>Pero al horno.</em></h2>
+    <p class="body" style="margin-top:30px;max-width:760px">Masa dorada, relleno con sazón de casa y nada de freidora.</p>
+  </div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="Plato con empanadas al horno">
+</section>
+
+<!-- 3 · BAJAS EN GRASA -->
+<section class="slide bg-cream A s3 on-photo" style="--ph:760px" data-file="01-no-las-freimos-3.png" data-n="01" data-i="3" data-of="5">
+  <div class="photo grade"><img src="../../assets/photos/emp-corte-pechuga.jpg" alt="Empanada de pechuga al horno partida"></div>
+  <div class="stamp seal">Al horno<small>Bajas en grasa</small></div>
+  <div class="txt">
+    <div class="kick red">Nuestra promesa</div>
+    <h2 class="display">Bajas en grasa.<br><em class="r">Cuidamos tu corazón.</em></h2>
+    <p class="body">Está impresa en cada bandeja, y es la razón por la que las horneamos.</p>
+  </div>
+</section>
+
+<!-- 4 · NUEVE SABORES -->
+<section class="slide bg-tan s4 C" data-file="01-no-las-freimos-4.png" data-n="01" data-i="4" data-of="5">
+  <div class="t">
+    <div class="kick" style="margin-bottom:26px">El menú</div>
+    <h2 class="display">Nueve sabores <em class="r">para repetir.</em></h2>
+  </div>
+  <div class="hearts9">
+    <i class="hn" data-n="1"></i><i class="hn" data-n="2"></i><i class="hn" data-n="3"></i><i class="hn" data-n="4"></i><i class="hn" data-n="5"></i><i class="hn" data-n="6"></i><i class="hn" data-n="7"></i><i class="hn" data-n="8"></i><i class="hn" data-n="9"></i>
+  </div>
+  <div class="strip grade"><div><img src="../../assets/photos/estudio-jamon-queso.jpg" style="object-position:48% 62%;transform:scale(1.5)" alt=""></div><div><img src="../../assets/photos/estudio-hawaiana.jpg" style="object-position:42% 60%;transform:scale(1.5)" alt=""></div><div><img src="../../assets/photos/estudio-pechuga.jpg" style="object-position:50% 62%;transform:scale(1.7)" alt=""></div></div>
+  <p class="body list">Res, pechuga, jamón ahumado y queso, hawaiana, champiñón, carne con arroz… Hay una para cada persona de la mesa.</p>
+</section>
+
+<!-- 5 · CIERRE -->
+<section class="slide bg-red hearts s5" data-file="01-no-las-freimos-5.png" data-nomast data-i="5" data-of="5" data-last>
+  <div class="lg-logo"><span id="lg"></span></div>
+  <h2 class="display">Pruébalas.</h2>
+  <div class="cta">
+    <div class="wa lg"><i class="ic" data-ic="wa"></i>Pide por WhatsApp</div>
+    <div class="num-wa">300 516 2421</div>
+  </div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="">
+  <p class="addr">La Séptima, Cl. 7 #4-79 · Cajicá<br>Al lado del parasol rojo</p>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+<script>document.getElementById('lg').outerHTML = logo('xl');</script>
+</body>
+</html>

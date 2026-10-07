@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 06 · Para tu próxima reunión — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); top: 175px; z-index: 5; }
+  .s1 h1 { font-size: 118px; }
+  .s1 h1 em { font-style: normal; color: #ffd9a0; display: block; }
+  .s1 .plato { position: absolute; left: 50%; bottom: 60px; width: 1060px; transform: translateX(-50%); filter: drop-shadow(0 34px 44px rgba(60,0,0,.55)); z-index: 3; }
+
+  /* 2 · Ocasiones */
+  .s2 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s2 h2 { font-size: 100px; }
+  .s2 .grid { position: absolute; left: var(--pad); right: var(--pad); top: 480px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .s2 .card { background: #fff; border-radius: 34px; padding: 40px 36px 44px; box-shadow: 0 16px 32px rgba(20,16,13,.12); min-height: 340px; display: flex; flex-direction: column; gap: 22px; }
+  .s2 .card .ic { width: 96px; height: 96px; padding: 24px; border-radius: 50%; background: var(--red); color: #fff; }
+  .s2 .card b { font: 400 46px/1.05 var(--display); }
+  .s2 .card span { font: 400 30px/1.35 var(--sans); color: #5a4c3b; }
+
+  /* 3 · Variedad */
+  .s3 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s3 h2 { font-size: 104px; } .s3 h2 em { font-style: normal; color: #ff4a3d; }
+  .s3 .tiles { position: absolute; left: var(--pad); right: var(--pad); top: 520px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 270px 270px; gap: 20px; }
+  .s3 .tiles div { border-radius: 30px; overflow: hidden; position: relative; }
+  .s3 .tiles img { width: 100%; height: 100%; object-fit: cover; }
+  .s3 .tiles .big { grid-row: span 2; }
+  .s3 .tiles span { position: absolute; left: 20px; bottom: 18px; z-index: 3; background: rgba(20,16,13,.72); color: #fff; font: 600 24px/1 var(--sans); padding: 10px 18px; border-radius: 999px; }
+  .s3 .foot { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; font: 500 34px/1.4 var(--sans); }
+
+  /* 4 · Por mayor */
+  .s4 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s4 h2 { font-size: 104px; }
+  .s4 .ribbon { position: absolute; left: var(--pad); top: 520px; font-size: 64px; padding: 26px 70px; }
+  .s4 .lst { position: absolute; left: var(--pad); right: var(--pad); top: 700px; display: grid; gap: 26px; }
+  .s4 .lst div { display: grid; grid-template-columns: 70px 1fr; gap: 24px; align-items: center; font: 600 38px/1.25 var(--sans); }
+  .s4 .lst .ic { width: 70px; height: 70px; border-radius: 50%; background: var(--red); color: #fff; padding: 16px; }
+  .s4 .note { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; font: 500 30px/1.4 var(--sans); color: #4a3f33; }
+
+  /* 5 · Pasos */
+  .s5 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s5 h2 { font-size: 104px; }
+  .s5 ol { position: absolute; left: var(--pad); right: var(--pad); top: 500px; list-style: none; display: grid; gap: 78px; }
+  .s5 li { display: grid; grid-template-columns: 120px 1fr; gap: 30px; align-items: center; }
+  .s5 li .n { width: 120px; height: 120px; border-radius: 50%; background: #fff; color: var(--red); font: 400 66px/1 var(--display); display: grid; place-items: center; box-shadow: 0 12px 24px rgba(60,0,0,.3); }
+  .s5 li b { display: block; font: 400 56px/1.05 var(--display); margin-bottom: 8px; }
+  .s5 li span:not(.n) { font: 400 35px/1.35 var(--sans); opacity: .94; }
+
+  /* 6 · Cierre */
+  .s6 .t { position: absolute; left: var(--pad); right: var(--pad); top: 190px; }
+  .s6 h2 { font-size: 124px; }
+  .s6 .body { position: absolute; left: var(--pad); right: var(--pad); top: 600px; max-width: 860px; font-size: 42px; }
+  .s6 .chips { position: absolute; left: var(--pad); right: var(--pad); top: 820px; display: flex; flex-wrap: wrap; gap: 14px; }
+  .s6 .chips span { border: 3px solid var(--ink); border-radius: 999px; padding: 14px 28px; font: 700 30px/1 var(--sans); }
+  .s6 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; flex-direction: column; gap: 22px; }
+  .s6 .cta .num-wa { font-size: 60px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-red hearts s1" data-file="06-reunion-1.png" data-n="06" data-i="1" data-of="6">
+  <div class="t"><div class="kick" style="margin-bottom:24px">Eventos · oficinas · celebraciones</div><h1 class="display">Tu próxima reunión,<em>resuelta.</em></h1></div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="Plato con empanadas al horno">
+</section>
+
+<!-- 2 · OCASIONES -->
+<section class="slide bg-cream s2" data-file="06-reunion-2.png" data-n="06" data-i="2" data-of="6">
+  <div class="t"><div class="kick red" style="margin-bottom:22px">Para cada ocasión</div><h2 class="display">Donde hay gente,<br>hay empanadas.</h2></div>
+  <div class="grid">
+    <div class="card"><i class="ic" data-ic="cal"></i><b>Cumpleaños y celebraciones</b><span>Algo rico para todos los invitados.</span></div>
+    <div class="card"><i class="ic" data-ic="users"></i><b>Reuniones de oficina</b><span>El almuerzo o el onces del equipo.</span></div>
+    <div class="card"><i class="ic" data-ic="heart" style="display:none"></i><i class="ic" data-ic="box"></i><b>Eventos familiares</b><span>Para la mesa grande y las visitas.</span></div>
+    <div class="card"><i class="ic" data-ic="store"></i><b>Eventos empresariales</b><span>Lanzamientos, capacitaciones y más.</span></div>
+  </div>
+</section>
+
+<!-- 3 · VARIEDAD -->
+<section class="slide bg-ink on-dark s3" data-file="06-reunion-3.png" data-n="06" data-i="3" data-of="6">
+  <div class="t"><div class="kick" style="margin-bottom:22px">Hay para todos</div><h2 class="display">9 sabores<br>+ <em>lasaña.</em></h2></div>
+  <div class="tiles grade">
+    <div class="big"><img src="../../assets/photos/emp-corte-res.jpg" style="object-position:30% 50%;transform:scale(1.5)" alt=""><span>Gourmet</span></div>
+    <div><img src="../../assets/photos/estudio-hawaiana.jpg" style="object-position:45% 62%;transform:scale(1.5)" alt=""><span>Hawaiana</span></div>
+    <div><img src="../../assets/photos/lasana-capas.jpg" style="object-position:55% 55%" alt=""><span>Lasaña · foto referencial</span></div>
+  </div>
+  <p class="foot">Gourmet, tradicionales y lasaña de res o pechuga. Pide la mezcla que tu evento necesita.</p>
+</section>
+
+<!-- 4 · POR MAYOR -->
+<section class="slide bg-tan s4" data-file="06-reunion-4.png" data-n="06" data-i="4" data-of="6">
+  <div class="t"><div class="kick red" style="margin-bottom:22px">Por mayor</div><h2 class="display">Más personas,<br>mejor precio.</h2></div>
+  <span class="ribbon">Precios al por mayor</span>
+  <div class="lst">
+    <div><i class="ic" data-ic="check"></i>Por unidad o en bandejas x5</div>
+    <div><i class="ic" data-ic="check"></i>Gourmet, tradicionales y lasaña</div>
+    <div><i class="ic" data-ic="check"></i>Cotización por WhatsApp</div>
+  </div>
+  <p class="note">Pregunta por nuestros precios al por mayor y te respondemos con la propuesta para tu evento.</p>
+</section>
+
+<!-- 5 · PASOS -->
+<section class="slide bg-red hearts s5" data-file="06-reunion-5.png" data-n="06" data-i="5" data-of="6">
+  <div class="t"><div class="kick" style="margin-bottom:22px">Así de simple</div><h2 class="display">Tu evento<br>en 3 pasos.</h2></div>
+  <ol>
+    <li><span class="n">1</span><div><b>Cuéntanos</b><span>La fecha y cuántas personas serán.</span></div></li>
+    <li><span class="n">2</span><div><b>Te proponemos</b><span>Sabores y cantidades para tu grupo.</span></div></li>
+    <li><span class="n">3</span><div><b>Coordinamos</b><span>Entrega o recogida, y la forma de pago.</span></div></li>
+  </ol>
+</section>
+
+<!-- 6 · CIERRE -->
+<section class="slide bg-cream s6" data-file="06-reunion-6.png" data-n="06" data-i="6" data-of="6" data-last>
+  <div class="t"><div class="kick red" style="margin-bottom:22px">Escríbenos</div><h2 class="display">Cuéntanos<br>tu evento.</h2></div>
+  <p class="body">Con la fecha y el número de personas te armamos la propuesta.</p>
+  <div class="chips"><span>Cumpleaños</span><span>Oficinas</span><span>Familiares</span><span>Empresariales</span></div>
+  <div class="cta"><span class="wa lg"><i class="ic" data-ic="wa"></i>Escríbenos por WhatsApp</span><div class="num-wa">300 516 2421</div></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

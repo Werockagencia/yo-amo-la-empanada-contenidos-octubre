@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 04 · La lasaña que se estira — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* POST 1 · queso estirado a sangre */
+  .p1 .photo img { object-position: 50% 30%; }
+  .p1 .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.55) 0%, rgba(20,16,13,0) 20%, rgba(20,16,13,0) 50%, rgba(20,16,13,.86) 84%, #14100d 100%); }
+  .p1 .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; z-index: 6; }
+  .p1 h1 { font-size: 190px; line-height: .86; }
+  .p1 h1 em { font-style: normal; color: #ff4a3d; }
+  .p1 .sub { margin-top: 24px; font: 500 36px/1.35 var(--sans); color: rgba(255,255,255,.9); }
+  .p1 .refnote { right: var(--pad); top: 118px; }
+
+  /* POST 2 · capas */
+  .p2 .photo { top: 0; left: 0; right: 0; height: 700px; }
+  .p2 .photo img { object-position: 55% 60%; transform: scale(1.12); }
+  .p2 .refnote { left: var(--pad); top: 610px; }
+  .p2 .chips { display: flex; gap: 14px; margin-top: 30px; }
+  .p2 .chips span { border: 3px solid var(--ink); border-radius: 999px; padding: 12px 28px; font: 700 28px/1 var(--sans); }
+  .p2 .chips span.f { background: var(--red); border-color: var(--red); color: #fff; }
+
+  /* POST 3 · precios */
+  .p3 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .p3 h2 { font-size: 104px; }
+  .p3 .rows { position: absolute; left: var(--pad); right: var(--pad); top: 480px; display: grid; gap: 34px; }
+  .p3 .r { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; background: rgba(255,255,255,.12); border: 2.5px solid rgba(255,255,255,.4); border-radius: 36px; padding: 36px 44px; }
+  .p3 .r .l { display: flex; align-items: center; gap: 28px; }
+  .p3 .r .l .ic { font-size: 70px; color: #ffd9a0; }
+  .p3 .r b { display: block; font: 400 50px/1.05 var(--display); }
+  .p3 .r small { display: block; margin-top: 8px; font: 500 27px/1.3 var(--sans); opacity: .92; }
+  .p3 .r .p { font: 400 78px/1 var(--display); letter-spacing: -.02em; }
+  .p3 .foot { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+
+  /* HISTORIAS */
+  .story .safe-t { position: absolute; top: 0; left: 0; right: 0; height: 250px; }
+  .st1 .photo img { object-position: 50% 40%; }
+  .st1 .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.6) 0%, rgba(20,16,13,0) 20%, rgba(20,16,13,0) 46%, rgba(20,16,13,.88) 82%, #14100d 100%); }
+  .st1 .t { position: absolute; left: var(--pad); right: var(--pad); top: 1010px; z-index: 6; color: #fff; }
+  .st1 h2 { font-size: 136px; line-height: .9; }
+  .st1 h2 em { font-style: normal; color: #ff4a3d; }
+  .st1 .hint { margin-top: 30px; font: 600 28px/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; color: #f3d58a; }
+  .st1 .refnote { right: var(--pad); top: 250px; }
+
+  .st2 .frame { position: absolute; left: 50%; top: 400px; width: 640px; height: 1137px; transform: translateX(-50%) rotate(-2.2deg); border-radius: 36px; overflow: hidden; box-shadow: 0 40px 70px rgba(40,0,0,.55); border: 10px solid #fff; z-index: 3; }
+  .st2 .frame img { width: 100%; height: 100%; object-fit: cover; }
+  .st2 .tag { position: absolute; z-index: 8; left: 50%; top: 1460px; transform: translateX(-50%) rotate(-2.2deg); }
+  .st2 .tag .ribbon { font-size: 44px; padding: 20px 66px; background: #fff; color: var(--red); }
+  .st2 .t { position: absolute; left: var(--pad); right: var(--pad); top: 255px; text-align: center; z-index: 5; }
+  .st2 h2 { font-size: 84px; }
+
+  .st3 .t { position: absolute; left: var(--pad); right: var(--pad); top: 340px; text-align: center; }
+  .st3 h2 { font-size: 150px; line-height: .92; }
+  .st3 .prices { position: absolute; top: 760px; left: 0; right: 0; display: grid; justify-items: center; gap: 22px; }
+  .st3 .prices .ribbon { font-size: 92px; padding: 26px 100px; background: #fff; color: var(--red); }
+  .st3 .prices small { font: 600 34px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+  .st3 .num { position: absolute; left: 0; right: 0; top: 1230px; text-align: center; }
+  .st3 .num .num-wa { font-size: 68px; margin-top: 26px; }
+  .st3 .sticker { position: absolute; left: 50%; top: 1440px; transform: translateX(-50%); width: 640px; height: 120px; border: 3px dashed rgba(255,255,255,.65); border-radius: 22px; display: grid; place-items: center; font: 600 26px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+</style>
+</head>
+<body>
+
+<!-- POST 1 -->
+<section class="slide bg-ink on-dark p1" data-file="04-lasana-post-1.png" data-n="04" data-i="1" data-of="3">
+  <div class="photo full grade"><img src="../../assets/photos/lasana-queso.jpg" alt="Porción de lasaña levantada con el queso estirado"></div>
+  <span class="refnote">Foto referencial</span>
+  <div class="t">
+    <div class="kick" style="margin-bottom:20px">La lasaña</div>
+    <h1 class="display">Se <em>estira.</em></h1>
+    <p class="sub">Res o pechuga, con queso bien gratinado.</p>
+  </div>
+</section>
+
+<!-- POST 2 -->
+<section class="slide bg-cream A p2 on-photo" data-file="04-lasana-post-2.png" data-n="04" data-i="2" data-of="3">
+  <div class="photo grade"><img src="../../assets/photos/lasana-capas.jpg" alt="Lasaña en capas con queso gratinado"></div>
+  <span class="refnote">Foto referencial</span>
+  <div class="txt">
+    <div class="kick red">Capa por capa</div>
+    <h2 class="display" style="font-size:100px">Elige tu relleno.</h2>
+    <p class="body">Carne o pechuga, salsa y queso gratinado. Para hornear en casa o recién horneada en el local.</p>
+    <div class="chips"><span class="f">Res</span><span class="f">Pechuga</span></div>
+  </div>
+</section>
+
+<!-- POST 3 -->
+<section class="slide bg-red hearts p3" data-file="04-lasana-post-3.png" data-n="04" data-i="3" data-of="3" data-last>
+  <div class="t"><div class="kick" style="margin-bottom:22px">Dos formas de pedirla</div><h2 class="display">Tú escoges<br>cómo.</h2></div>
+  <div class="rows">
+    <div class="r"><div class="l"><i class="ic" data-ic="snow"></i><div><b>Lista para hornear</b><small>Congelada, para tu casa</small></div></div><div class="p">$19.900</div></div>
+    <div class="r"><div class="l"><i class="ic" data-ic="flame"></i><div><b>Al horno</b><small>Recién horneada, para comer hoy</small></div></div><div class="p">$23.900</div></div>
+  </div>
+  <div class="foot"><span class="wa"><i class="ic" data-ic="wa"></i>300 516 2421</span><span class="small" style="text-align:right;font-size:26px">Cajicá<br>@yoamolaempanada</span></div>
+</section>
+
+<!-- HISTORIA 1 · encuesta -->
+<section class="slide story bg-ink on-dark st1" data-file="04-lasana-historia-1.png" data-n="04" data-nofolio>
+  <div class="photo full grade"><img src="../../assets/photos/lasana-queso.jpg" alt=""></div>
+  <span class="refnote">Foto referencial</span>
+  <div class="t">
+    <h2 class="display">¿Res o <em>pechuga?</em></h2>
+    <div class="hint">Vota en la encuesta ↓</div>
+  </div>
+</section>
+
+<!-- HISTORIA 2 · el local -->
+<section class="slide story bg-red hearts st2" data-file="04-lasana-historia-2.png" data-n="04" data-nofolio>
+  <div class="t"><div class="kick" style="margin-bottom:18px">Directo del local</div><h2 class="display">Así se estira.</h2></div>
+  <div class="frame grade"><img src="../../assets/photos/lasana-local-1.jpg" alt="Tenedor levantando lasaña con queso estirado en el local"></div>
+  <div class="tag"><span class="ribbon">En Cajicá</span></div>
+</section>
+
+<!-- HISTORIA 3 · pedir -->
+<section class="slide story bg-red hearts st3" data-file="04-lasana-historia-3.png" data-n="04" data-nofolio>
+  <div class="t"><h2 class="display">Pide<br>la tuya.</h2></div>
+  <div class="prices">
+    <span class="ribbon">$19.900</span><small>Lista para hornear</small>
+    <span class="ribbon" style="margin-top:20px">$23.900</span><small>Al horno</small>
+  </div>
+  <div class="num"><span class="wa lg"><i class="ic" data-ic="wa"></i>WhatsApp</span><div class="num-wa">300 516 2421</div></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

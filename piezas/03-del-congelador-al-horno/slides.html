@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 03 · Del congelador al horno — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .s1 .photo { inset: 0 0 auto 0; height: 930px; }
+  .s1 .photo img { object-position: 50% 30%; }
+  .s1 .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.6) 0%, rgba(20,16,13,0) 22%, rgba(20,16,13,0) 58%, #14100d 100%); }
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; z-index: 6; }
+  .s1 h1 { font-size: 118px; }
+  .s1 h1 span { display: block; } .s1 h1 .r { color: #ff4a3d; }
+  .s1 .sub { margin-top: 26px; font: 500 36px/1.35 var(--sans); color: rgba(255,255,255,.88); max-width: 820px; }
+
+  /* 2 · Dos formas */
+  .s2 .half { position: absolute; left: 0; right: 0; padding: 0 var(--pad); display: flex; align-items: center; gap: 40px; }
+  .s2 .h1 { top: 0; height: 675px; padding-top: 110px; background: var(--cream); color: var(--ink); }
+  .s2 .h2 { top: 675px; height: 675px; padding-bottom: 80px; background: linear-gradient(150deg, var(--red), var(--red-900)); color: #fff; }
+  .s2 .h1 .plato { position: absolute; right: 20px; bottom: 50px; width: 520px; filter: drop-shadow(0 20px 26px rgba(60,40,10,.35)); }
+  .s2 .h2 .bag { position: absolute; right: 56px; top: 72px; width: 340px; height: 470px; border-radius: 28px; overflow: hidden; box-shadow: 0 22px 40px rgba(40,0,0,.5); transform: rotate(2deg); }
+  .s2 .h2 .bag img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; transform: scale(1.1); }
+  .s2 .half .tx { max-width: 520px; position: relative; z-index: 3; }
+  .s2 .half .ic { font-size: 62px; margin-bottom: 22px; display: block; }
+  .s2 .h1 .ic { color: var(--red); } .s2 .h2 .ic { color: #ffd9a0; }
+  .s2 h2 { font-size: 76px; margin-bottom: 18px; }
+  .s2 .body { font-size: 32px; }
+  .s2 .folio { color: #fff; }
+  .s2 .badge { position: absolute; left: 50%; top: 675px; transform: translate(-50%, -50%); z-index: 20; background: #fff; color: var(--ink); font: 400 30px/1 var(--display); padding: 18px 34px; border-radius: 999px; box-shadow: 0 12px 28px rgba(20,16,13,.3); }
+
+  /* 3 y 4 · Producto */
+  .prod .photo { border-radius: 34px; box-shadow: 0 26px 50px rgba(20,16,13,.35); }
+  .prod .photo img { object-fit: cover; }
+  .prod .t { position: absolute; left: var(--pad); right: var(--pad); }
+  .prod h2 { font-size: 104px; }
+  .prod .price { margin: 0; }
+  .prod .price .ribbon { font-size: 96px; padding: 20px 84px; }
+  .prod .each { margin-top: 24px; font: 600 32px/1.3 var(--sans); }
+  .prod .chips { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+  .prod .chips span { border: 2.5px solid currentColor; border-radius: 999px; padding: 10px 22px; font: 600 25px/1 var(--sans); }
+  .s3 .photo { right: var(--pad); top: 150px; width: 470px; height: 690px; }
+  .s3 .photo img { object-position: 50% 48%; }
+  .s3 .t { top: 170px; right: 560px; }
+  .s3 h2 { font-size: 86px; }
+  .s3 .t2 { position: absolute; left: var(--pad); right: var(--pad); top: 890px; }
+  .s4 .photo { left: var(--pad); top: 150px; width: 470px; height: 690px; }
+  .s4 .photo img { object-position: 50% 50%; transform: scale(1.0); }
+  .s4 .t { top: 170px; left: 590px; }
+  .s4 h2 { font-size: 78px; }
+  .s4 .t2 { position: absolute; left: var(--pad); right: var(--pad); top: 890px; }
+
+  /* 5 · Lasaña */
+  .s5 .photo { top: 0; left: 0; right: 0; height: 780px; }
+  .s5 .photo img { object-position: 50% 52%; }
+  .s5 .photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.6), rgba(20,16,13,0) 24%, rgba(20,16,13,0) 70%, rgba(20,16,13,.35)); }
+  .s5 .refnote { left: var(--pad); top: 690px; }
+  .s5 .txt { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; }
+  .s5 h2 { font-size: 98px; }
+  .s5 .row2 { display: flex; align-items: center; justify-content: space-between; margin-top: 28px; gap: 20px; }
+  .s5 .ribbon { font-size: 78px; padding: 18px 70px; }
+
+  /* 6 · Pasos */
+  .s6 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s6 h2 { font-size: 100px; }
+  .s6 ol { position: absolute; left: var(--pad); right: var(--pad); top: 480px; list-style: none; display: grid; gap: 56px; }
+  .s6 li { display: grid; grid-template-columns: 120px 1fr; gap: 30px; align-items: center; }
+  .s6 li .n { width: 120px; height: 120px; border-radius: 50%; background: #fff; color: var(--red); font: 400 64px/1 var(--display); display: grid; place-items: center; box-shadow: 0 12px 24px rgba(60,0,0,.3); }
+  .s6 li b { display: block; font: 400 52px/1.05 var(--display); margin-bottom: 8px; }
+  .s6 li span:not(.n) { font: 400 33px/1.35 var(--sans); opacity: .94; }
+  .s6 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-ink on-dark s1" data-file="03-congelador-1.png" data-n="03" data-i="1" data-of="6">
+  <div class="photo grade"><img src="../../assets/photos/bandeja-solo.jpg" alt="Bandeja de cinco empanadas congeladas, lista para hornear"></div>
+  <div class="t">
+    <div class="kick" style="margin-bottom:22px">Listas para hornear</div>
+    <h1 class="display"><span>Del congelador</span><span class="r">al horno.</span></h1>
+    <p class="sub">Bandejas x5 para tener en casa. Tú eliges cuándo.</p>
+  </div>
+</section>
+
+<!-- 2 · DOS FORMAS -->
+<section class="slide s2" data-file="03-congelador-2.png" data-n="03" data-i="2" data-of="6" data-nomast>
+  <div class="half h1">
+    <div class="tx"><i class="ic" data-ic="flame"></i><h2 class="display">Al horno,<br>hoy.</h2><p class="body">Recién horneadas en el local. Las pides y las disfrutas calientes.</p></div>
+    <img class="plato" src="../../assets/photos/plato-corte.png" alt="">
+  </div>
+  <div class="half h2 hearts">
+    <div class="tx"><i class="ic" data-ic="snow"></i><h2 class="display">Listas para<br>hornear.</h2><p class="body">Bandejas x5 congeladas. Las guardas y las horneas cuando quieras.</p></div>
+    <div class="bag grade"><img src="../../assets/photos/bandeja-etiqueta.jpg" alt="Bandeja de empanadas congeladas"></div>
+  </div>
+  <div class="badge">Dos formas, un mismo sabor</div>
+</section>
+
+<!-- 3 · GOURMET -->
+<section class="slide bg-tan prod s3" data-file="03-congelador-3.png" data-n="03" data-i="3" data-of="6">
+  <div class="t"><div class="kick red" style="margin-bottom:20px">Bandeja</div><h2 class="display">Gourmet<br>x5</h2></div>
+  <div class="photo grade"><img src="../../assets/photos/bandeja-etiqueta.jpg" alt="Bandeja Gourmet x5"></div>
+  <div class="t2">
+    <div class="price"><span class="ribbon">$19.900</span></div>
+    <p class="each">Cinco empanadas gourmet · a $3.980 cada una</p>
+    <div class="chips"><span>Res</span><span>Pechuga</span><span>Pechuga, Queso</span><span>Jamón ahumado, Queso</span><span>Hawaiana</span><span>Pavo, Queso</span><span>Champiñón</span></div>
+  </div>
+</section>
+
+<!-- 4 · TRADICIONAL -->
+<section class="slide bg-ink on-dark prod s4" data-file="03-congelador-4.png" data-n="03" data-i="4" data-of="6">
+  <div class="t"><div class="kick" style="margin-bottom:20px">Bandeja</div><h2 class="display">Tradicional<br>x5</h2></div>
+  <div class="photo grade"><img src="../../assets/photos/bandeja-solo.jpg" alt="Bandeja Tradicional x5"></div>
+  <div class="t2">
+    <div class="price"><span class="ribbon">$12.900</span></div>
+    <p class="each">Cinco empanadas tradicionales · a $2.580 cada una</p>
+    <div class="chips"><span>Carne Arroz</span><span>Pollo Arroz</span></div>
+  </div>
+</section>
+
+<!-- 5 · LASAÑA -->
+<section class="slide bg-cream s5" data-file="03-congelador-5.png" data-n="03" data-i="5" data-of="6">
+  <div class="photo grade"><img src="../../assets/photos/lasana-bandeja.jpg" alt="Lasaña gratinada en bandeja de aluminio"></div>
+  <span class="refnote">Foto referencial</span>
+  <div class="txt">
+    <div class="kick red">Para hornear en casa</div>
+    <h2 class="display" style="margin-top:20px">La lasaña, también.</h2>
+    <div class="row2"><span class="ribbon">$19.900</span><span class="small" style="font-size:30px;line-height:1.35;text-align:right">De res o de pechuga,<br>con queso bien gratinado.</span></div>
+  </div>
+</section>
+
+<!-- 6 · PASOS -->
+<section class="slide bg-red hearts s6" data-file="03-congelador-6.png" data-n="03" data-i="6" data-of="6" data-last>
+  <div class="t"><div class="kick" style="margin-bottom:22px">Pedir es fácil</div><h2 class="display">Tu bandeja<br>en 3 pasos.</h2></div>
+  <ol>
+    <li><span class="n">1</span><div><b>Elige</b><span>Tus sabores, en nuestro menú online.</span></div></li>
+    <li><span class="n">2</span><div><b>Envía por WhatsApp</b><span>Tu pedido llega armado, sin escribirlo todo.</span></div></li>
+    <li><span class="n">3</span><div><b>Recibe o recoge</b><span>Te confirmamos entrega y pago por el mismo chat.</span></div></li>
+  </ol>
+  <div class="cta"><span class="wa"><i class="ic" data-ic="wa"></i>300 516 2421</span><span class="small" style="font-size:26px;text-align:right">Cajicá<br>@yoamolaempanada</span></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

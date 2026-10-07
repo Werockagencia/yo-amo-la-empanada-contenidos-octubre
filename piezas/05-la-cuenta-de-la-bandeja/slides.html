@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 05 · La cuenta de la bandeja — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); top: 190px; }
+  .s1 h1 { font-size: 150px; line-height: .92; }
+  .s1 h1 em { font-style: normal; color: #ff4a3d; }
+  .s1 .eq { position: absolute; left: var(--pad); right: var(--pad); top: 640px; }
+  .s1 .a { font: 600 34px/1.2 var(--sans); opacity: .8; }
+  .s1 .a b { display: block; font: 400 128px/1 var(--display); letter-spacing: -.02em; margin-top: 10px; position: relative; display: inline-block; }
+  .s1 .a b::after { content: ''; position: absolute; left: -10px; right: -10px; top: 52%; height: 14px; background: var(--red); border-radius: 8px; transform: rotate(-3deg); }
+  .s1 .b { margin-top: 56px; }
+  .s1 .b .ribbon { font-size: 150px; padding: 30px 110px; margin-top: 18px; }
+  .s1 .b .lbl { font: 600 34px/1.2 var(--sans); }
+
+  /* 2 y 3 · Comparación */
+  .cmp .head { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .cmp .head h2 { font-size: 100px; }
+  .cmp .old { position: absolute; left: var(--pad); right: var(--pad); top: 440px; padding-bottom: 38px; border-bottom: 3px dashed currentColor; opacity: .85; }
+  .cmp .old .lbl { font: 600 32px/1.3 var(--sans); }
+  .cmp .old .v { display: inline-block; position: relative; margin-top: 14px; font: 400 112px/1 var(--display); letter-spacing: -.02em; }
+  .cmp .old .v::after { content: ''; position: absolute; left: -10px; right: -10px; top: 52%; height: 13px; background: var(--red); border-radius: 8px; transform: rotate(-3deg); }
+  .cmp .old .calc { font: 500 30px/1 var(--sans); margin-left: 24px; opacity: .85; }
+  .cmp .new { position: absolute; left: var(--pad); right: var(--pad); top: 710px; }
+  .cmp .new .lbl { font: 600 34px/1.2 var(--sans); }
+  .cmp .new .ribbon { font-size: 150px; padding: 28px 100px; margin-top: 20px; }
+  .cmp .each { position: absolute; left: var(--pad); bottom: 128px; font: 600 38px/1.3 var(--sans); }
+  .cmp .each b { font: 400 54px/1 var(--display); display: block; color: var(--red); margin-bottom: 8px; }
+  .bg-ink.cmp .each b { color: #ff4a3d; }
+  .cmp .stamp { right: 80px; bottom: 150px; width: 270px; height: 270px; font-size: 50px; }
+  .cmp .stamp small { font-size: 20px; }
+
+  /* 4 · Beneficios */
+  .s4 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s4 h2 { font-size: 100px; }
+  .s4 .list { position: absolute; left: var(--pad); right: var(--pad); top: 480px; display: grid; gap: 40px; }
+  .s4 .it { display: grid; grid-template-columns: 120px 1fr; gap: 34px; align-items: center; padding-bottom: 40px; border-bottom: 2px solid rgba(255,255,255,.3); }
+  .s4 .it:last-child { border: 0; }
+  .s4 .it .ic { width: 120px; height: 120px; border-radius: 50%; background: #fff; color: var(--red); padding: 28px; box-shadow: 0 12px 24px rgba(60,0,0,.3); }
+  .s4 .it b { display: block; font: 400 52px/1.05 var(--display); margin-bottom: 8px; }
+  .s4 .it span { font: 400 32px/1.35 var(--sans); opacity: .94; }
+
+  /* 5 · Cierre */
+  .s5 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s5 h2 { font-size: 118px; }
+  .s5 .sum { position: absolute; left: var(--pad); right: var(--pad); top: 560px; display: grid; gap: 22px; }
+  .s5 .sum div { display: flex; justify-content: space-between; align-items: center; background: #fff; border-radius: 30px; padding: 32px 40px; box-shadow: 0 14px 28px rgba(20,16,13,.14); }
+  .s5 .sum b { font: 400 46px/1 var(--display); } .s5 .sum small { display: block; font: 500 26px/1.2 var(--sans); margin-top: 8px; color: #6a5a45; }
+  .s5 .sum .p { font: 400 62px/1 var(--display); color: var(--red); }
+  .s5 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-ink on-dark s1" data-file="05-cuenta-1.png" data-n="05" data-i="1" data-of="5">
+  <div class="t"><div class="kick" style="margin-bottom:24px">Matemática de empanada</div><h1 class="display">Haz la <em>cuenta.</em></h1></div>
+  <div class="eq">
+    <div class="a">5 empanadas gourmet sueltas<br><b>$25.000</b></div>
+    <div class="b"><div class="lbl">En Bandeja Gourmet x5</div><span class="ribbon">$19.900</span></div>
+  </div>
+</section>
+
+<!-- 2 · GOURMET -->
+<section class="slide bg-cream cmp" data-file="05-cuenta-2.png" data-n="05" data-i="2" data-of="5">
+  <div class="head"><div class="kick red" style="margin-bottom:20px">Bandeja Gourmet</div><h2 class="display">Cinco empanadas<br>por menos.</h2></div>
+  <div class="old"><div class="lbl">Por unidad · 5 × $5.000</div><span class="v">$25.000</span></div>
+  <div class="new"><div class="lbl">En bandeja x5</div><span class="ribbon">$19.900</span></div>
+  <div class="each"><b>$3.980</b>cada empanada</div>
+  <div class="stamp">Ahorras<br>$5.100<small>por bandeja</small></div>
+</section>
+
+<!-- 3 · TRADICIONAL -->
+<section class="slide bg-ink on-dark cmp" data-file="05-cuenta-3.png" data-n="05" data-i="3" data-of="5">
+  <div class="head"><div class="kick" style="margin-bottom:20px">Bandeja Tradicional</div><h2 class="display">Lo de siempre,<br>más barato.</h2></div>
+  <div class="old"><div class="lbl">Por unidad · 5 × $3.500</div><span class="v">$17.500</span></div>
+  <div class="new"><div class="lbl">En bandeja x5</div><span class="ribbon">$12.900</span></div>
+  <div class="each"><b>$2.580</b>cada empanada</div>
+  <div class="stamp">Ahorras<br>$4.600<small>por bandeja</small></div>
+</section>
+
+<!-- 4 · BENEFICIOS -->
+<section class="slide bg-red hearts s4" data-file="05-cuenta-4.png" data-n="05" data-i="4" data-of="5">
+  <div class="t"><div class="kick" style="margin-bottom:22px">Y además</div><h2 class="display">Quedan en tu<br>congelador.</h2></div>
+  <div class="list">
+    <div class="it"><i class="ic" data-ic="snow"></i><div><b>Siempre a mano</b><span>Una bandeja guardada resuelve la comida del día menos pensado.</span></div></div>
+    <div class="it"><i class="ic" data-ic="clock"></i><div><b>Cuando tú quieras</b><span>Las horneas en el momento en que se te antoje.</span></div></div>
+    <div class="it"><i class="ic" data-ic="users"></i><div><b>Para compartir</b><span>Cinco empanadas por bandeja: alcanzan para la mesa.</span></div></div>
+  </div>
+</section>
+
+<!-- 5 · CIERRE -->
+<section class="slide bg-tan s5" data-file="05-cuenta-5.png" data-n="05" data-i="5" data-of="5" data-last>
+  <div class="t"><div class="kick red" style="margin-bottom:22px">La cuenta clara</div><h2 class="display">Tu bandeja,<br>tu precio.</h2></div>
+  <div class="sum">
+    <div><span><b>Gourmet x5</b><small>7 sabores · $3.980 c/u</small></span><span class="p">$19.900</span></div>
+    <div><span><b>Tradicional x5</b><small>2 sabores · $2.580 c/u</small></span><span class="p">$12.900</span></div>
+    <div><span><b>Lasaña lista para hornear</b><small>Res o pechuga</small></span><span class="p">$19.900</span></div>
+  </div>
+  <div class="cta"><span class="wa"><i class="ic" data-ic="wa"></i>300 516 2421</span><span class="small" style="text-align:right;font-size:26px">Cajicá<br>@yoamolaempanada</span></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

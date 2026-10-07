@@ -1,0 +1,18 @@
+{
+  "name": "yo-amo-la-empanada-campana-congelados",
+  "private": true,
+  "type": "module",
+  "description": "Yo Amo la Empanada — Campaña Congelados (octubre 2026): 2 carruseles de Ads, 8 contenidos orgánicos y kit de montaje de campañas. Piezas en HTML/CSS exportadas a PNG.",
+  "scripts": {
+    "prep": "node scripts/prep-assets.mjs",
+    "render": "node scripts/render.mjs",
+    "preview": "node scripts/preview.mjs",
+    "build": "npm run prep && npm run render && npm run preview && npm run captions && npm run site",
+    "captions": "node scripts/captions.mjs",
+    "site": "node scripts/site.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0",
+    "sharp": "^0.33.0"
+  }
+}

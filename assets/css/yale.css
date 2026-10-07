@@ -1,0 +1,153 @@
+/* ==========================================================================
+   YO ❤ LA EMPANADA al Horno — Sistema editorial "Campaña Congelados"
+   Lienzos: feed 1080×1350 (4:5) · historias 1080×1920 (9:16) · ads 1080×1350 (zona segura 1:1 = y 135–1215)
+   Tipografía de marca: Russo One (títulos, como el sitio) + Poppins (texto y UI, manual de marca)
+   ========================================================================== */
+
+@font-face { font-family: 'Russo One'; src: url('../brand/fonts/russo-one.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-400.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-500.woff2') format('woff2'); font-weight: 500; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-600.woff2') format('woff2'); font-weight: 600; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-600-italic.woff2') format('woff2'); font-weight: 600; font-style: italic; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-700.woff2') format('woff2'); font-weight: 700; }
+@font-face { font-family: 'Poppins'; src: url('../brand/fonts/poppins-800.woff2') format('woff2'); font-weight: 800; }
+
+:root {
+  --red: #E41E13;  --red-d: #B3140B;  --red-900: #7E0A05;
+  --ink: #14100d;  --ink-2: #241b15;
+  --cream: #F8F3E7; --sand: #E8E4D9; --tan: #DACCAC;
+  --gold: #B68D2C; --gold-t: #86610d; --olive: #857244;
+  --wa: #1faa4b;
+  --display: 'Russo One', 'Arial Black', sans-serif;
+  --sans: 'Poppins', system-ui, sans-serif;
+  --pad: 72px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #111; }
+body { -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+img { display: block; }
+
+/* ---------- Lienzo ---------- */
+.slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; font-family: var(--sans); background: var(--cream); color: var(--ink); }
+.slide.story { height: 1920px; }
+.bg-cream { background: var(--cream); color: var(--ink); }
+.bg-sand  { background: var(--sand); color: var(--ink); }
+.bg-tan   { background: var(--tan); color: var(--ink); }
+.bg-ink   { background: radial-gradient(120% 90% at 70% 0%, #2a211a 0%, var(--ink) 62%); color: #fff; }
+.bg-red   { background: linear-gradient(150deg, var(--red) 0%, var(--red-d) 58%, var(--red-900) 100%); color: #fff; }
+/* Patrón de corazones (igual que la banda Mayoristas del sitio) */
+.hearts::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath transform='translate(40 40) scale(1.7)' fill='%23fff' fill-opacity='.07' d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E");
+}
+.bg-cream.hearts::before, .bg-tan.hearts::before, .bg-sand.hearts::before { filter: invert(1) sepia(1) saturate(3) hue-rotate(-12deg); opacity: .55; }
+
+/* Grano de película (da textura editorial común a todas las piezas) */
+.grain { position: absolute; inset: 0; pointer-events: none; z-index: 40; opacity: .09; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.bg-ink .grain, .bg-red .grain, .on-dark .grain { mix-blend-mode: screen; opacity: .06; }
+
+/* ---------- Tipografía ---------- */
+.display { font-family: var(--display); font-weight: 400; letter-spacing: -.012em; line-height: .95; }
+.kick { font: 600 24px/1 var(--sans); letter-spacing: .24em; text-transform: uppercase; color: var(--gold-t); }
+.bg-ink .kick, .bg-red .kick, .on-dark .kick { color: #f3d58a; }
+.kick.red { color: var(--red); }
+.body { font: 400 35px/1.42 var(--sans); }
+.body b, .body strong { font-weight: 600; }
+.small { font: 500 26px/1.4 var(--sans); }
+em.r { font-style: normal; color: var(--red); }
+.bg-red em.r { color: #ffd9a0; }
+.bg-ink em.r { color: #ff5a4d; }
+.hl { color: var(--red); }
+.under { display: inline-block; position: relative; }
+.under::after { content: ''; position: absolute; left: 0; right: 0; bottom: -.08em; height: .1em; background: currentColor; opacity: .9; border-radius: 4px; }
+
+/* ---------- Marca ---------- */
+.logo { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; line-height: 1; font-family: var(--sans); font-weight: 700; letter-spacing: -.005em; }
+.logo .l1 { display: inline-flex; align-items: center; gap: .3em; font-size: 30px; }
+.logo .l1 svg { width: 1.05em; height: 1.05em; fill: var(--red); flex: none; }
+.logo .l2 { font-size: 15px; padding: 3px 14px 3px 12px; border: 1.5px solid currentColor; letter-spacing: .24em; font-weight: 500; }
+.logo .l2 b { font-weight: 800; }
+.logo.xl .l1 { font-size: 64px; } .logo.xl .l2 { font-size: 30px; border-width: 2.5px; padding: 6px 28px 6px 24px; }
+.logo.lg .l1 { font-size: 46px; } .logo.lg .l2 { font-size: 22px; border-width: 2px; padding: 5px 20px 5px 18px; }
+.bg-red .logo .l1 svg { fill: #fff; }
+
+/* ---------- Masthead y folio (los inyecta slide.js) ---------- */
+.mast { position: absolute; top: 46px; left: var(--pad); right: var(--pad); display: flex; align-items: center; justify-content: space-between; z-index: 30; }
+.mast .no { font: 600 21px/1 var(--sans); letter-spacing: .24em; text-transform: uppercase; opacity: .9; }
+.mast .no i { font-style: normal; color: var(--red); }
+.bg-red .mast .no i { color: #ffd9a0; }
+.on-dark .mast, .bg-ink .mast, .bg-red .mast { color: #fff; }
+.on-dark .mast .logo .l1 svg { fill: var(--red); }
+.folio { position: absolute; left: var(--pad); right: var(--pad); bottom: 48px; display: flex; align-items: center; gap: 22px; z-index: 30; font: 600 21px/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; }
+.folio .line { flex: 1; height: 1.5px; background: currentColor; opacity: .28; }
+.folio .more { display: inline-flex; align-items: center; gap: 12px; }
+.folio .more svg { width: 34px; height: 14px; }
+.on-dark .folio, .bg-ink .folio, .bg-red .folio { color: #fff; }
+.slide.story .mast { top: 120px; } .slide.story .folio { display: none; }
+
+/* ---------- Fotografía ---------- */
+.photo { position: absolute; overflow: hidden; }
+.photo.full { inset: 0; }
+.photo img { width: 100%; height: 100%; object-fit: cover; }
+.grade img { filter: saturate(1.1) contrast(1.05) brightness(1.02); }
+.shade-b::after, .shade-t::after, .shade-all::after { content: ''; position: absolute; inset: 0; pointer-events: none; }
+.shade-b::after { background: linear-gradient(180deg, rgba(20,16,13,0) 38%, rgba(20,16,13,.78) 78%, rgba(20,16,13,.94) 100%); }
+.shade-t::after { background: linear-gradient(0deg, rgba(20,16,13,0) 70%, rgba(20,16,13,.6) 100%); }
+.shade-all::after { background: linear-gradient(180deg, rgba(20,16,13,.45) 0%, rgba(20,16,13,.05) 35%, rgba(20,16,13,.8) 100%); }
+.refnote { position: absolute; z-index: 20; font: 500 17px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: #fff; background: rgba(20,16,13,.55); padding: 8px 14px; border-radius: 999px; backdrop-filter: blur(3px); }
+
+/* ---------- Elementos de marca ---------- */
+/* Cinta roja como el flyer del cliente */
+.ribbon { display: inline-block; background: var(--red); color: #fff; font-family: var(--display); line-height: 1; padding: 16px 64px; clip-path: polygon(0 0, 100% 0, calc(100% - 28px) 50%, 100% 100%, 0 100%, 28px 50%); }
+.pill { display: inline-block; border: 3px solid currentColor; border-radius: 999px; padding: 12px 30px; font: 700 28px/1 var(--sans); letter-spacing: .04em; }
+.pill.solid { background: #fff; color: var(--red); border-color: #fff; }
+/* Corazón numerado (como la carta impresa) */
+.hn { position: relative; width: 84px; height: 78px; flex: none; display: grid; place-items: center; }
+.hn svg { position: absolute; inset: 0; width: 100%; height: 100%; fill: var(--red); filter: drop-shadow(0 6px 10px rgba(179,20,11,.35)); }
+.hn span { position: relative; z-index: 1; font: 400 34px/1 var(--display); color: #fff; margin-top: -4px; }
+.hn.sm { width: 60px; height: 56px; } .hn.sm span { font-size: 24px; }
+/* Botón WhatsApp */
+.wa { display: inline-flex; align-items: center; gap: 18px; background: var(--wa); color: #fff; font: 700 32px/1 var(--sans); padding: 24px 40px; border-radius: 999px; box-shadow: 0 14px 30px rgba(31,170,75,.35); }
+
+.wa.lg { font-size: 38px; padding: 30px 52px; }
+/* Número gigante de fondo */
+.numeral { position: absolute; font-family: var(--display); line-height: .8; opacity: .1; letter-spacing: -.04em; user-select: none; }
+/* Sellos */
+.stamp { position: absolute; z-index: 25; display: grid; place-items: center; text-align: center; width: 190px; height: 190px; border-radius: 50%; background: var(--red); color: #fff; font: 400 26px/1.05 var(--display); transform: rotate(-10deg); box-shadow: 0 14px 28px rgba(126,10,5,.4); border: 4px dashed rgba(255,255,255,.7); outline: 8px solid var(--red); outline-offset: -2px; }
+.stamp small { display: block; font: 600 15px/1.2 var(--sans); letter-spacing: .16em; text-transform: uppercase; margin-top: 4px; }
+
+/* ---------- Layouts reutilizables ---------- */
+/* A · foto arriba + texto sobre papel */
+.A .photo { top: 0; left: 0; right: 0; height: var(--ph, 700px); }
+.A .txt { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; }
+.A .kick { margin-bottom: 22px; }
+.A h2 { font-size: 96px; }
+.A .body { margin-top: 24px; max-width: 880px; }
+/* B · foto a sangre + texto abajo */
+.B .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; z-index: 6; color: #fff; }
+.B .kick { margin-bottom: 24px; color: #f3d58a; }
+.B h2 { font-size: 110px; }
+.B .body { margin-top: 24px; opacity: .92; max-width: 860px; }
+/* C · tipográfico */
+.C .t { position: absolute; left: var(--pad); right: var(--pad); z-index: 6; }
+.C h2 { font-size: 120px; }
+.C .body { margin-top: 30px; max-width: 880px; }
+/* Pie de CTA */
+.cta-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.num-wa { font: 800 54px/1 var(--sans); letter-spacing: .01em; }
+
+/* ---------- Iconos y utilidades ---------- */
+i.ic { display: inline-block; font-style: normal; width: 1em; height: 1em; flex: none; }
+i.ic svg { width: 100%; height: 100%; display: block; }
+i.hn, i.heart { font-style: normal; }
+i.heart { display: inline-block; width: 1em; height: 1em; } i.heart svg { width: 100%; height: 100%; fill: currentColor; }
+.wa i.ic { width: 40px; height: 40px; }
+.row { display: flex; align-items: center; }
+.abs { position: absolute; }
+
+/* Masthead blanco sobre foto (con sombra superior) */
+.on-photo .mast { color: #fff; }
+.on-photo .mast .no i { color: #ffd9a0; }
+.on-photo .photo::before { content: ''; position: absolute; inset: 0 0 auto 0; height: 220px; background: linear-gradient(rgba(20,16,13,.62), rgba(20,16,13,0)); z-index: 3; }

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Ad · Carrusel A · La bandeja del congelador — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* Todo el contenido vive dentro de la zona segura 1:1 (y 135–1215) para que no se corte en Feed 1:1, Marketplace ni Explorar */
+  .ad .lg-mark { position: absolute; top: 160px; left: var(--pad); z-index: 20; }
+  .ad .tag { position: absolute; top: 168px; right: var(--pad); z-index: 20; font: 700 21px/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; border: 2.5px solid currentColor; border-radius: 999px; padding: 12px 20px; }
+
+  /* A1 */
+  .a1 h1 { position: absolute; left: var(--pad); right: var(--pad); top: 290px; font-size: 124px; }
+  .a1 .sub { position: absolute; left: var(--pad); right: var(--pad); top: 590px; font: 600 42px/1.25 var(--sans); color: #ffd9a0; }
+  .a1 .card { position: absolute; left: 50%; bottom: 200px; width: 780px; height: 440px; transform: translateX(-50%) rotate(-2deg); border-radius: 40px; overflow: hidden; box-shadow: 0 34px 60px rgba(40,0,0,.55); }
+  .a1 .card img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 34%; }
+  .a1 .ribbon { position: absolute; right: 56px; bottom: 150px; z-index: 5; background: #fff; color: var(--red); font-size: 52px; padding: 22px 70px; }
+
+  /* A2 / A3 */
+  .prod .card { position: absolute; top: 260px; width: 450px; height: 660px; border-radius: 38px; overflow: hidden; box-shadow: 0 28px 54px rgba(20,16,13,.38); }
+  .prod .card img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 46%; }
+  .prod .txt { position: absolute; top: 290px; width: 410px; }
+  .prod h2 { font-size: 90px; }
+  .prod .txt p { margin-top: 24px; font: 500 31px/1.38 var(--sans); }
+  .prod .bottom { position: absolute; left: var(--pad); right: var(--pad); top: 970px; display: flex; align-items: center; gap: 30px; }
+  .prod .ribbon { font-size: 104px; padding: 22px 80px; }
+  .prod .each { font: 600 32px/1.3 var(--sans); } .prod .each b { display: block; font: 400 46px/1 var(--display); }
+  .a2 .card { right: var(--pad); } .a2 .txt { left: var(--pad); }
+  .a3 .card { left: var(--pad); } .a3 .txt { left: 560px; right: var(--pad); width: auto; }
+  .a3 h2 { font-size: 76px; }
+
+  /* A4 */
+  .a4 .card { position: absolute; left: var(--pad); right: var(--pad); top: 270px; height: 470px; border-radius: 38px; overflow: hidden; box-shadow: 0 26px 50px rgba(20,16,13,.32); }
+  .a4 .card img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; }
+  .a4 .refnote { left: 100px; top: 690px; }
+  .a4 .txt { position: absolute; left: var(--pad); right: var(--pad); top: 790px; }
+  .a4 h2 { font-size: 80px; }
+  .a4 .row { display: flex; align-items: center; justify-content: space-between; margin-top: 26px; gap: 20px; }
+  .a4 .ribbon { font-size: 80px; padding: 20px 66px; }
+  .a4 .row span.s { font: 500 29px/1.35 var(--sans); text-align: right; }
+
+  /* A5 */
+  .a5 .t { position: absolute; left: var(--pad); right: var(--pad); top: 290px; }
+  .a5 h2 { font-size: 96px; }
+  .a5 ol { position: absolute; left: var(--pad); right: var(--pad); top: 540px; list-style: none; display: grid; gap: 56px; }
+  .a5 li { display: grid; grid-template-columns: 110px 1fr; gap: 28px; align-items: center; }
+  .a5 li .n { width: 110px; height: 110px; border-radius: 50%; background: #fff; color: var(--red); font: 400 60px/1 var(--display); display: grid; place-items: center; box-shadow: 0 12px 24px rgba(60,0,0,.3); }
+  .a5 li b { display: block; font: 400 48px/1.05 var(--display); margin-bottom: 6px; }
+  .a5 li span:not(.n) { font: 400 30px/1.35 var(--sans); opacity: .94; }
+
+  /* A6 */
+  .a6 .stack { position: absolute; left: var(--pad); right: var(--pad); top: 300px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 30px; }
+  .a6 h2 { font-size: 112px; } .a6 h2 em { font-style: normal; color: #ff4a3d; }
+  .a6 .wa { font-size: 40px; padding: 30px 54px; }
+  .a6 .num-wa { font-size: 64px; }
+  .a6 .loc { font: 500 30px/1.45 var(--sans); opacity: .9; }
+  .a6 .plato { position: absolute; left: 50%; bottom: 160px; width: 600px; transform: translateX(-50%); }
+</style>
+</head>
+<body>
+
+<!-- A1 · Gancho -->
+<section class="slide bg-red hearts ad a1" data-file="A1-gancho.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg1"></span></div>
+  <h1 class="display">Tu cena resuelta.</h1>
+  <p class="sub">Del congelador al horno.</p>
+  <div class="card grade"><img src="../../assets/photos/bandeja-solo.jpg" alt="Bandeja de cinco empanadas lista para hornear"></div>
+  <span class="ribbon">Desde $12.900</span>
+</section>
+
+<!-- A2 · Gourmet -->
+<section class="slide bg-tan ad prod a2" data-file="A2-gourmet.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg2"></span></div>
+  <div class="txt"><div class="kick red" style="margin-bottom:18px">Bandeja</div><h2 class="display">Gourmet<br>x5</h2><p>Siete sabores para elegir: res, pechuga, jamón y queso, hawaiana y más.</p></div>
+  <div class="card grade"><img src="../../assets/photos/bandeja-etiqueta.jpg" alt="Bandeja Gourmet x5"></div>
+  <div class="bottom"><span class="ribbon">$19.900</span><span class="each"><b>$3.980</b>cada una</span></div>
+</section>
+
+<!-- A3 · Tradicional -->
+<section class="slide bg-ink on-dark ad prod a3" data-file="A3-tradicional.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg3"></span></div>
+  <div class="txt"><div class="kick" style="margin-bottom:18px">Bandeja</div><h2 class="display">Tradicional<br>x5</h2><p>Carne con arroz o pollo con arroz, con la sazón de mamá.</p></div>
+  <div class="card grade"><img src="../../assets/photos/bandeja-solo.jpg" alt="Bandeja Tradicional x5"></div>
+  <div class="bottom"><span class="ribbon">$12.900</span><span class="each"><b>$2.580</b>cada una</span></div>
+</section>
+
+<!-- A4 · Lasaña -->
+<section class="slide bg-cream ad a4" data-file="A4-lasana.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg4"></span></div>
+  <div class="card grade"><img src="../../assets/photos/lasana-bandeja.jpg" alt="Lasaña gratinada en bandeja"></div>
+  <span class="refnote">Foto referencial</span>
+  <div class="txt">
+    <div class="kick red" style="margin-bottom:16px">Para hornear en casa</div>
+    <h2 class="display">Lasaña lista<br>para hornear.</h2>
+    <div class="row"><span class="ribbon">$19.900</span><span class="s">De res o pechuga,<br>con queso gratinado.</span></div>
+  </div>
+</section>
+
+<!-- A5 · Pasos -->
+<section class="slide bg-red hearts ad a5" data-file="A5-pasos.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg5"></span></div>
+  <div class="t"><h2 class="display">Pedir es fácil.</h2></div>
+  <ol>
+    <li><span class="n">1</span><div><b>Elige</b><span>Tus sabores en nuestro menú online.</span></div></li>
+    <li><span class="n">2</span><div><b>Envía por WhatsApp</b><span>Tu pedido llega armado.</span></div></li>
+    <li><span class="n">3</span><div><b>Recibe o recoge</b><span>Te confirmamos entrega y pago.</span></div></li>
+  </ol>
+</section>
+
+<!-- A6 · CTA -->
+<section class="slide bg-ink on-dark ad a6" data-file="A6-pide-hoy.png" data-nomast data-nofolio>
+  <div class="lg-mark"><span id="lg6"></span></div>
+  <div class="stack">
+    <h2 class="display">Pide hoy tu <em>bandeja.</em></h2>
+    <span class="wa"><i class="ic" data-ic="wa"></i>Pedir por WhatsApp</span>
+    <div class="num-wa">300 516 2421</div>
+    <div class="loc">Cajicá · Domicilio o recoge en el local</div>
+  </div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="">
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+<script>for (let i = 1; i <= 6; i++) document.getElementById('lg' + i).outerHTML = logo();</script>
+</body>
+</html>

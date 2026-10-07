@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 02 · 9 sabores, 9 corazones — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* Portada */
+  .s1 .plato { position: absolute; left: 50%; top: 150px; width: 1010px; transform: translateX(-50%); filter: drop-shadow(0 30px 38px rgba(60,0,0,.5)); z-index: 3; }
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; z-index: 5; }
+  .s1 h1 { font-size: 122px; }
+  .s1 h1 span { display: block; }
+  .s1 h1 .y { color: #ffd9a0; }
+
+  /* Filas de sabores */
+  .menu { position: absolute; left: var(--pad); right: var(--pad); }
+  .item { display: grid; grid-template-columns: 96px 1fr; gap: 28px; align-items: start; padding: 30px 0; border-top: 2px solid rgba(20,16,13,.14); }
+  .item:first-child { border-top: 0; }
+  .item h3 { font: 400 50px/1 var(--display); letter-spacing: -.01em; margin-bottom: 12px; }
+  .item p { font: 400 29px/1.38 var(--sans); color: #4a3f33; }
+  .hd { position: absolute; left: var(--pad); right: var(--pad); top: 170px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .hd h2 { font-size: 92px; }
+  .hd .pr { font: 700 30px/1 var(--sans); background: var(--red); color: #fff; padding: 16px 28px; border-radius: 999px; margin-bottom: 8px; white-space: nowrap; }
+  .s2 .menu { top: 330px; }
+  .s3 .menu { top: 330px; }
+  .s2 .photo, .s3 .photo { left: var(--pad); right: var(--pad); bottom: 112px; height: 250px; border-radius: 30px; box-shadow: 0 18px 36px rgba(20,16,13,.25); }
+  .s3 .photo img { object-position: 45% 62%; transform: scale(1.35); } .s2 .photo img { object-position: 50% 64%; transform: scale(1.45); }
+
+  /* Tradicionales */
+  .s4 .plato { position: absolute; left: 50%; bottom: 100px; width: 820px; transform: translateX(-50%); filter: drop-shadow(0 26px 34px rgba(60,40,10,.4)); }
+  .s4 .menu { top: 330px; }
+  .s4 .item { border-color: rgba(20,16,13,.2); }
+
+  /* Cierre */
+  .s5 .t { position: absolute; left: var(--pad); right: var(--pad); top: 170px; }
+  .s5 h2 { font-size: 100px; }
+  .s5 .pad { position: absolute; left: 50%; top: 480px; transform: translateX(-50%); display: grid; grid-template-columns: repeat(3, 170px); gap: 22px 40px; }
+  .s5 .pad .hn { width: 170px; height: 158px; } .s5 .pad .hn span { font-size: 68px; margin-top: -8px; }
+  .s5 .pad .hn svg { fill: #fff; filter: drop-shadow(0 10px 16px rgba(60,0,0,.35)); }
+  .s5 .pad .hn span { color: var(--red); }
+  .s5 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
+  .s5 .cta .num-wa { font-size: 50px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-red hearts s1" data-file="02-nueve-sabores-1.png" data-n="02" data-i="1" data-of="5">
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="Plato de empanadas al horno">
+  <div class="t">
+    <div class="kick" style="margin-bottom:24px">La carta · al horno</div>
+    <h1 class="display"><span>9 sabores.</span><span class="y">9 corazones.</span></h1>
+  </div>
+</section>
+
+<!-- 2 · GOURMET 1–4 -->
+<section class="slide bg-cream s2" data-file="02-nueve-sabores-2.png" data-n="02" data-i="2" data-of="5">
+  <div class="hd"><div><div class="kick red" style="margin-bottom:18px">Gourmet</div><h2 class="display">Sabores 1 a 4</h2></div><div class="pr">$5.000 c/u</div></div>
+  <div class="menu">
+    <div class="item"><i class="hn" data-n="1"></i><div><h3>Res</h3><p>Cubos de carne a la plancha en salsa criolla.</p></div></div>
+    <div class="item"><i class="hn" data-n="2"></i><div><h3>Pechuga</h3><p>Cubos de pechuga a la plancha en salsa criolla.</p></div></div>
+    <div class="item"><i class="hn" data-n="3"></i><div><h3>Pechuga, Queso</h3><p>Cubos de pechuga a la plancha en salsa criolla y cubos de queso artesanal.</p></div></div>
+    <div class="item"><i class="hn" data-n="4"></i><div><h3>Jamón ahumado, Queso</h3><p>Trozos gruesos de jamón de cerdo ahumado, salsa de queso y queso artesanal en cubos.</p></div></div>
+  </div>
+  <div class="photo grade"><img src="../../assets/photos/estudio-jamon-queso.jpg" alt="Empanada de jamón y queso al horno"></div>
+</section>
+
+<!-- 3 · GOURMET 5–7 -->
+<section class="slide bg-cream s3" data-file="02-nueve-sabores-3.png" data-n="02" data-i="3" data-of="5">
+  <div class="hd"><div><div class="kick red" style="margin-bottom:18px">Gourmet</div><h2 class="display">Sabores 5 a 7</h2></div><div class="pr">$5.000 c/u</div></div>
+  <div class="menu">
+    <div class="item"><i class="hn" data-n="5"></i><div><h3>Hawaiana</h3><p>Dulce de piña casero, jamón ahumado, salsa de queso y cubos de queso artesanal.</p></div></div>
+    <div class="item"><i class="hn" data-n="6"></i><div><h3>Pavo relleno, Queso</h3><p>Trozos gruesos de jamón de pavo relleno, salsa de queso y cubos de queso artesanal.</p></div></div>
+    <div class="item"><i class="hn" data-n="7"></i><div><h3>Champiñón, Cebolla, Queso</h3><p>Champiñón a la plancha, salsa de champiñón y cebolla, salsa de queso y cubos de queso artesanal.</p></div></div>
+  </div>
+  <div class="photo grade"><img src="../../assets/photos/estudio-hawaiana.jpg" alt="Empanada hawaiana al horno"></div>
+</section>
+
+<!-- 4 · TRADICIONALES 8–9 -->
+<section class="slide bg-tan s4" data-file="02-nueve-sabores-4.png" data-n="02" data-i="4" data-of="5">
+  <div class="hd"><div><div class="kick red" style="margin-bottom:18px">Tradicional</div><h2 class="display">Sabores 8 y 9</h2></div><div class="pr">$3.500 c/u</div></div>
+  <div class="menu">
+    <div class="item"><i class="hn" data-n="8"></i><div><h3>Carne Arroz</h3><p>Sobrebarriga desmechada, sazón de mamá y arroz con especias.</p></div></div>
+    <div class="item"><i class="hn" data-n="9"></i><div><h3>Pollo Arroz</h3><p>Pechuga desmechada, sazón de mamá y arroz con especias.</p></div></div>
+  </div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="Plato de empanadas">
+</section>
+
+<!-- 5 · CIERRE -->
+<section class="slide bg-red hearts s5" data-file="02-nueve-sabores-5.png" data-n="02" data-i="5" data-of="5" data-last>
+  <div class="t"><div class="kick" style="margin-bottom:22px">Tu turno</div><h2 class="display">¿Cuál es tu número?</h2></div>
+  <div class="pad">
+    <i class="hn" data-n="1"></i><i class="hn" data-n="2"></i><i class="hn" data-n="3"></i>
+    <i class="hn" data-n="4"></i><i class="hn" data-n="5"></i><i class="hn" data-n="6"></i>
+    <i class="hn" data-n="7"></i><i class="hn" data-n="8"></i><i class="hn" data-n="9"></i>
+  </div>
+  <div class="cta">
+    <p class="small" style="font-size:30px">Cuéntanos el tuyo en los comentarios y pídelo por WhatsApp</p>
+    <div class="num-wa">300 516 2421</div>
+  </div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>

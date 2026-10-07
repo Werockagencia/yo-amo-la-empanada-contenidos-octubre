@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Nº 08 · Lo que dicen de nosotros — Yo Amo la Empanada</title>
+<link rel="stylesheet" href="../../assets/css/yale.css">
+<style>
+  /* 1 · Portada */
+  .s1 .q { position: absolute; left: var(--pad); top: 120px; font: 400 560px/1 var(--display); color: rgba(255,255,255,.14); }
+  .s1 .t { position: absolute; left: var(--pad); right: var(--pad); top: 330px; }
+  .s1 h1 { font-size: 132px; }
+  .s1 h1 em { font-style: normal; color: #ffd9a0; display: block; }
+  .s1 .sub { position: absolute; left: var(--pad); right: var(--pad); bottom: 330px; font: 500 38px/1.4 var(--sans); max-width: 760px; }
+  .s1 .avs { position: absolute; left: var(--pad); bottom: 170px; display: flex; }
+  .av { width: 110px; height: 110px; border-radius: 50%; display: grid; place-items: center; font: 400 44px/1 var(--display); border: 5px solid #fff; background: var(--ink); color: #fff; margin-right: -22px; }
+  .av.r { background: var(--red); } .av.g { background: var(--gold); } .av.k { background: var(--ink); } .av.w { background: #fff; color: var(--red); }
+
+  /* Reseñas */
+  .rv .qm { position: absolute; left: var(--pad); top: 150px; font: 400 360px/1 var(--display); color: var(--red); opacity: .95; height: 230px; overflow: hidden; }
+  .bg-ink.rv .qm, .bg-red.rv .qm { color: #ffd9a0; }
+  .rv blockquote { position: absolute; left: var(--pad); right: var(--pad); top: 420px; font: 600 52px/1.32 var(--sans); letter-spacing: -.005em; }
+  .rv .who { position: absolute; left: var(--pad); right: var(--pad); bottom: 150px; display: flex; align-items: center; gap: 28px; padding-top: 36px; border-top: 2.5px solid currentColor; }
+  .rv .who .av { margin: 0; border-width: 0; width: 120px; height: 120px; font-size: 48px; flex: none; }
+  .rv .who b { display: block; font: 400 46px/1.05 var(--display); }
+  .rv .who div > span { display: block; margin-top: 8px; font: 500 30px/1 var(--sans); opacity: .8; }
+  .rv .who .src { margin-left: auto; font: 600 20px/1.4 var(--sans); letter-spacing: .16em; text-transform: uppercase; text-align: right; opacity: .65; }
+  .rv.two blockquote { display: none; }
+  .two .pair { position: absolute; left: var(--pad); right: var(--pad); top: 220px; display: grid; gap: 50px; }
+  .two .card { background: rgba(255,255,255,.14); border: 2.5px solid rgba(255,255,255,.4); border-radius: 36px; padding: 56px 52px 50px; }
+  .two .card p { font: 600 52px/1.3 var(--sans); }
+  .two .card .who { position: static; margin-top: 30px; padding-top: 28px; }
+  .two .card .who .av { width: 96px; height: 96px; font-size: 38px; }
+  .two .card .who b { font-size: 38px; }
+
+  /* Cierre */
+  .s6 .t { position: absolute; left: var(--pad); right: var(--pad); top: 190px; }
+  .s6 h2 { font-size: 130px; }
+  .s6 .body { position: absolute; left: var(--pad); right: var(--pad); top: 600px; max-width: 880px; }
+  .s6 .cta { position: absolute; left: var(--pad); right: var(--pad); bottom: 128px; display: flex; flex-direction: column; gap: 22px; }
+  .s6 .cta .num-wa { font-size: 60px; }
+  .s6 .plato { position: absolute; right: -90px; top: 760px; width: 620px; filter: drop-shadow(0 26px 34px rgba(60,0,0,.5)); }
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="slide bg-red hearts s1" data-file="08-resenas-1.png" data-n="08" data-i="1" data-of="6">
+  <div class="q">“</div>
+  <div class="t"><div class="kick" style="margin-bottom:24px">Palabras de clientes</div><h1 class="display">Lo que dicen<em>de nosotros.</em></h1></div>
+  <p class="sub">Reseñas reales de clientes, tomadas de nuestro sitio.</p>
+  <div class="avs"><span class="av w">MA</span><span class="av k">GM</span><span class="av g">TC</span><span class="av w">JM</span><span class="av k">JC</span></div>
+</section>
+
+<!-- 2 · MARÍA -->
+<section class="slide bg-cream rv" data-file="08-resenas-2.png" data-n="08" data-i="2" data-of="6">
+  <div class="qm">“</div>
+  <blockquote>Son deliciosas, crocantes y súper ricas, las recomendamos, y sobre todo son hechas con mucha higiene, los platos especiales que ellos preparan también son muy deliciosos.</blockquote>
+  <div class="who"><span class="av r">MA</span><div><b>Maria Acero</b><span>@jaceroq</span></div></div>
+</section>
+
+<!-- 3 · GERVERT -->
+<section class="slide bg-ink on-dark rv" data-file="08-resenas-3.png" data-n="08" data-i="3" data-of="6">
+  <div class="qm">“</div>
+  <blockquote>Su sabor único hace que yo también ame la empanada. Los felicito por el amor que le imprimen en la preparación y en la atención al cliente. Dios los bendiga. ❤️</blockquote>
+  <div class="who"><span class="av r">GM</span><div><b>Gervert MG</b><span>@mcgyverh</span></div></div>
+</section>
+
+<!-- 4 · TANIA -->
+<section class="slide bg-tan rv" data-file="08-resenas-4.png" data-n="08" data-i="4" data-of="6">
+  <div class="qm">“</div>
+  <blockquote>Super recomendado 👌 Servicio al cliente de calidad tal cual sus exquisitas Empanadas. Un emprendimiento de admirar.</blockquote>
+  <div class="who"><span class="av r">TC</span><div><b>Tania Castro</b><span>@peke.emoxaa.9</span></div></div>
+</section>
+
+<!-- 5 · JORGE + JUAN CAMILO -->
+<section class="slide bg-red hearts rv two" data-file="08-resenas-5.png" data-n="08" data-i="5" data-of="6">
+  <div class="pair">
+    <div class="card"><p>“En verdad son de muy buena calidad y deliciosas 👌🏽”</p><div class="who"><span class="av w">JM</span><div><b>Jorge Mesa</b><span>@JorgeMesa98</span></div></div></div>
+    <div class="card"><p>“La verdad son muy ricas 😋 y están ubicados al lado del parasol rojo”</p><div class="who"><span class="av w">JC</span><div><b>Juan Camilo</b><span>@josecastillo.a</span></div></div></div>
+  </div>
+</section>
+
+<!-- 6 · CIERRE -->
+<section class="slide bg-cream s6" data-file="08-resenas-6.png" data-n="08" data-i="6" data-of="6" data-last>
+  <div class="t"><div class="kick red" style="margin-bottom:22px">Tu turno</div><h2 class="display">Ahora<br>te toca<br><span class="hl">a ti.</span></h2></div>
+  <img class="plato" src="../../assets/photos/plato-corte.png" alt="">
+  <div class="cta"><span class="wa lg"><i class="ic" data-ic="wa"></i>Pide por WhatsApp</span><div class="num-wa">300 516 2421</div></div>
+</section>
+
+<script src="../../assets/js/slide.js"></script>
+</body>
+</html>
