@@ -176,5 +176,9 @@ document.querySelectorAll('.copy').forEach(function(b){
 </script>
 `;
 await writeFile(path.join(WEB, 'artifact.html'), html);
+// Página completa para hosting estático (GitHub Pages): web/index.html + redirección desde la raíz
+const head = '<!doctype html>\n<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n';
+await writeFile(path.join(WEB, 'index.html'), head + html + '</html>\n');
+await writeFile(path.join(ROOT, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=web/"><title>Parrilla Yo Amo la Empanada</title><a href="web/">Abrir la parrilla</a>\n');
 const all = await readdir(IMG);
 console.log(`web/artifact.html + ${all.length} imágenes`);

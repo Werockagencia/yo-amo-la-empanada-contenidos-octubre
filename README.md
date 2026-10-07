@@ -2,7 +2,7 @@
 
 Todo lo necesario para lanzar la campaña de **lasañas y empanadas congeladas listas para hornear**: 8 contenidos orgánicos, 2 carruseles de Ads y el kit para montar las campañas (audiencias, estructura de cuenta, copys, medición, B2B y pendientes).
 
-> Abrir **`index.html`** para ver todo junto (carruseles, captions con botón "Copiar", calendario y pendientes).
+> **Ver la parrilla:** https://werockagencia.github.io/yo-amo-la-empanada-contenidos-octubre/ (carruseles, captions con botón "Copiar", calendario y pendientes). En local: abrir `index.html` (versión liviana en `web/`) o `completo.html` (PNG a tamaño completo).
 
 ## Idea
 **"Del congelador al horno. Con amor."** Tres capítulos que llevan al cliente de conocer el producto a pedirlo:
@@ -52,7 +52,8 @@ Además, las piezas Nº 05, 06, 07 y 08 se reutilizan como anuncios de retargeti
 
 ## Estructura del repo
 ```
-index.html                    página de revisión para el cliente (se genera)
+index.html · web/             página de revisión liviana para el cliente (se genera; GitHub Pages)
+completo.html                 misma página con los PNG a tamaño completo (se genera)
 CAPTIONS.md                   captions en orden de publicación (se genera)
 piezas/NN-slug/               slides.html · copy.md · export/*.png   (8 contenidos)
 ads/                          carrusel-a-… · carrusel-b-… (slides.html · copy.md · export/ 4:5 y 1:1)
@@ -75,7 +76,7 @@ preview/                      hojas de contacto por pieza y cuadrícula del perf
 ## Cómo re-exportar
 ```bash
 npm install            # una sola vez
-npm run build          # fotos → PNG → previews → captions → index.html
+npm run build          # fotos → PNG → previews → captions → páginas (completo.html, web/)
 npm run render -- 03   # solo las carpetas que contienen "03"
 npm run render -- ads  # solo los anuncios (genera 4:5 y 1:1)
 ```

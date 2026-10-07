@@ -1,4 +1,4 @@
-// Genera index.html: página para revisar la parrilla y los anuncios con el cliente
+// Genera completo.html: página para revisar la parrilla y los anuncios con el cliente
 // (carruseles, captions con botón "Copiar", calendario y pendientes). Rutas relativas: funciona abriendo el archivo
 // o publicado en GitHub Pages. Fuente: scripts/plan.mjs + piezas/*/copy.md + piezas|ads/*/export/*.png
 import { readFile, writeFile, readdir } from 'node:fs/promises';
@@ -127,5 +127,5 @@ ${plan.map((p) => `<tr><td>${p.n}</td><td><a href="#n${p.n}">${esc(p.title)}</a>
 </div>
 <script>document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',async()=>{const t=document.getElementById(b.dataset.t).innerText;try{await navigator.clipboard.writeText(t);b.textContent='¡Copiado!';b.classList.add('ok');setTimeout(()=>{b.textContent='Copiar';b.classList.remove('ok')},1600)}catch(e){b.textContent='Selecciona y copia'}}));</script>
 </body></html>`;
-await writeFile(path.join(ROOT, 'index.html'), html);
-console.log('index.html');
+await writeFile(path.join(ROOT, 'completo.html'), html);
+console.log('completo.html');
