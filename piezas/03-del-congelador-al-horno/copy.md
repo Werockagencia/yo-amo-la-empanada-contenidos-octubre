@@ -1,6 +1,6 @@
 # Nº 03 · Del congelador al horno
 **Capítulo II · El congelador** · Carrusel de 6 · Martes 20 oct · 12:30 p. m.
-**Rol en la narrativa:** presenta el producto central de la campaña (bandejas x5 listas para hornear y la lasaña) y cómo pedir.
+**Rol en la narrativa:** presenta el producto central de la campaña (bandejas x5 de empanadas listas para hornear y la lasaña, horneada y congelada, lista para calentar) y cómo pedir.
 **Audiencia:** familias y personas ocupadas que quieren tener comida rica guardada.
 
 ## Caption
@@ -12,7 +12,7 @@ Tenemos dos formas de disfrutar nuestras empanadas:
 
 Bandeja Gourmet x5 · $19.900
 Bandeja Tradicional x5 · $12.900
-Lasaña lista para hornear · $19.900
+Lasaña de res o pechuga, lista en 5 minutos de microondas · $19.900
 
 Pedirlas es fácil: eliges, envías el pedido por WhatsApp y te confirmamos la entrega.
 
@@ -34,7 +34,7 @@ Bandejas x5 listas para hornear: Gourmet $19.900 · Tradicional $12.900 · Lasa�
 6. Tres pasos numerados: Elige, Envía por WhatsApp, Recibe o recoge; botón de WhatsApp con el 300 516 2421.
 
 ## Notas
-- **Pendiente del cliente:** instrucciones de horneado (temperatura y tiempo) para una pieza futura "Cómo hornearlas"; hoy no se publican porque no las tenemos.
+- **Pendiente del cliente:** instrucciones de horneado de las **empanadas** (temperatura y tiempo) para una pieza futura "Cómo hornearlas"; hoy no se publican porque no las tenemos. La **lasaña** ya viene horneada y congelada: el cliente indica ~5 minutos de microondas (según la potencia) y 450 g aprox.
 - Las fotos de la bandeja tienen el WhatsApp de la etiqueta corregido a 300 516 2421 (retoque en `scripts/prep-assets.mjs`). La etiqueta impresa aún dice 301 477 0177: reimprimir antes de entregar a tiendas.
 - Slide 5 usa foto de stock (marcada "Foto referencial"); reemplazar por foto real de la lasaña.
 - Slide 6 menciona el menú online: publicar cuando el sitio nuevo esté en línea (o cambiar "en nuestro menú online" por "por WhatsApp").

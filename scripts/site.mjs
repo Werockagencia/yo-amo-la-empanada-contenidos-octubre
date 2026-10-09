@@ -118,7 +118,7 @@ ${plan.map((p) => `<tr><td>${p.n}</td><td><a href="#n${p.n}">${esc(p.title)}</a>
 <tr><td>Etiqueta de la bandeja</td><td>Reimprimir con 300 516 2421 (hoy dice 301 477 0177; en las fotos está corregido digitalmente)</td></tr>
 <tr><td>Precios y ahorro</td><td>Confirmar el flyer y que se muestre "$3.980 / $2.580 cada una" y "Ahorras $5.100 / $4.600"</td></tr>
 <tr><td>Domicilio y pagos</td><td>Zonas, costo, horario y formas de pago</td></tr>
-<tr><td>Horneado</td><td>Temperatura y tiempo para empanadas y lasaña congeladas</td></tr>
+<tr><td>Horneado</td><td>Temperatura y tiempo para hornear las empanadas congeladas (la lasaña ya trae ~5 min de microondas)</td></tr>
 <tr><td>Fotos y video</td><td>Foto real de la lasaña, video original del queso estirado y foto de cada sabor</td></tr>
 <tr><td>Reseñas</td><td>Permiso de las personas citadas en el Nº 08</td></tr>
 <tr><td>Canal tiendas</td><td>Lista de precios mayorista, pedido mínimo, vida útil y registros sanitarios</td></tr>

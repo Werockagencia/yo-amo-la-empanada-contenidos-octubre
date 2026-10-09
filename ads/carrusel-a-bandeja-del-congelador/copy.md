@@ -1,6 +1,6 @@
 # Ad · Carrusel A — "La bandeja del congelador"
 **Ángulo:** racional / oferta. Muestra el producto, el precio y lo fácil que es pedir.
-**Objetivo:** pedidos (bandejas x5 y lasaña lista para hornear).
+**Objetivo:** pedidos (bandejas x5 para hornear y lasaña lista para calentar).
 **Audiencia:** familias y personas ocupadas de Cajicá y la Sabana (ver `campana/01-audiencias.md`, audiencia B2C-1).
 **Formato:** carrusel de 6 tarjetas · 4:5 (1080×1350) y 1:1 (1080×1080, ya exportadas como `*-1x1.png`). Todo el contenido está dentro de la zona segura 1:1.
 
@@ -10,14 +10,14 @@
 | 1 | `A1-gancho` | Tu cena resuelta. Del congelador al horno. · Desde $12.900 | Tu cena resuelta | Bandejas x5 desde $12.900 |
 | 2 | `A2-gourmet` | Bandeja Gourmet x5 · $19.900 · $3.980 cada una | Bandeja Gourmet x5 · $19.900 | 7 sabores a elegir |
 | 3 | `A3-tradicional` | Bandeja Tradicional x5 · $12.900 · $2.580 cada una | Bandeja Tradicional x5 · $12.900 | Carne o pollo con arroz |
-| 4 | `A4-lasana` | Lasaña lista para hornear · $19.900 | Lasaña lista para hornear · $19.900 | De res o de pechuga |
+| 4 | `A4-lasana` | Lasaña lista en 5 minutos · $19.900 · 450 g aprox. | Lasaña lista en 5 minutos · $19.900 | De res o de pechuga |
 | 5 | `A5-pasos` | Pedir es fácil: Elige · Envía por WhatsApp · Recibe o recoge | Pedir es fácil | Sin escribirlo todo |
 | 6 | `A6-pide-hoy` | Pide hoy tu bandeja · 300 516 2421 | Pide hoy por WhatsApp | 300 516 2421 |
 
 ## Texto principal (probar las 3 variantes)
 **V1 · Directa**
 > Tu cena resuelta, del congelador al horno. 🧊➡️🔥
-> Bandejas x5 de empanadas al horno desde $12.900 y lasaña lista para hornear. Pídelas por WhatsApp y te confirmamos la entrega. 📍 Cajicá
+> Bandejas x5 de empanadas al horno desde $12.900 y lasaña lista en 5 minutos de microondas. Pídelas por WhatsApp y te confirmamos la entrega. 📍 Cajicá
 
 **V2 · Cuenta clara**
 > 5 empanadas gourmet sueltas: $25.000. En Bandeja Gourmet x5: $19.900. ❤️
