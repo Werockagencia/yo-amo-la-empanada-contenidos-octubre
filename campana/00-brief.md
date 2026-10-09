@@ -17,7 +17,7 @@ Vender **lasañas y empanadas congeladas listas para hornear**, y abrir dos cana
 | Empanada tradicional | Al horno, por unidad | $3.500 |
 | Lasaña al horno | Recién horneada · res o pechuga | $23.900 |
 | Al por mayor | Por unidad o en bandejas | Pregunta por precios (lista pendiente) |
-| Bebidas | Jugos, gaseosas, té, café, aromática | Sin precios aún |
+| Bebidas | Coca-Cola, Coca-Cola Zero, Colombiana, Brisa (maracuyá, manzana, lima-limón), Té Hatsu, Hit (mora, mango, tropical) · 200–250 ml | **$3.000** c/u |
 
 Los 9 sabores: 1 Res · 2 Pechuga · 3 Pechuga, Queso · 4 Jamón ahumado, Queso · 5 Hawaiana · 6 Pavo relleno, Queso · 7 Champiñón, Cebolla, Queso (gourmet) · 8 Carne Arroz · 9 Pollo Arroz (tradicionales).
 

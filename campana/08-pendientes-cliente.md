@@ -14,7 +14,7 @@ Todo lo que **no se pudo confirmar** y por lo tanto no se afirma (o se afirma co
 - ☐ **Peso real de la lasaña** (el brief decía ≈ 450 g; no se menciona en las piezas).
 - ☐ ¿La bandeja x5 puede llevar **sabores mezclados**? Hoy el sitio vende un sabor por bandeja.
 - ☐ **Vida útil en congelación** y recomendaciones de almacenamiento.
-- ☐ **Bebidas:** sabores y precios (la carta solo lista jugos, gaseosas, té, café y aromática).
+- ☐ **Bebidas:** sabores de Té Hatsu disponibles y fotos propias (las del sitio son de producto, referenciales).
 - ☐ Confirmar que **ningún producto se fríe** (la promesa es "al horno").
 - ☐ Sustento de **"Bajas en grasa"** si alguien lo pregunta (está en su etiqueta y flyer).
 
