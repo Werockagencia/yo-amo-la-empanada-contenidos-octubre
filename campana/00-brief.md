@@ -13,7 +13,6 @@ Vender **lasañas y empanadas congeladas listas para hornear**, y abrir dos cana
 | Bandeja Gourmet x5 | Congelada, lista para hornear · 7 sabores | **$19.900** ($3.980 c/u) |
 | Bandeja Tradicional x5 | Congelada, lista para hornear · 2 sabores | **$12.900** ($2.580 c/u) |
 | Lasaña lista para hornear | Congelada · res o pechuga | **$19.900** |
-| Lasaña horneada y congelada | **Lista para calentar** (~5 min en microondas) · res o pechuga · 450 g aprox. | *Precio por confirmar* |
 | Empanada gourmet | Al horno, por unidad | $5.000 |
 | Empanada tradicional | Al horno, por unidad | $3.500 |
 | Lasaña al horno | Recién horneada · res o pechuga | $23.900 |
