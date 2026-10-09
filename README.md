@@ -1,6 +1,6 @@
 # Yo ❤ La Empanada al Horno · Campaña Congelados (octubre 2026)
 
-Todo lo necesario para lanzar la campaña de **empanadas congeladas listas para hornear y lasañas horneadas y congeladas listas para calentar**: 8 contenidos orgánicos, 2 carruseles de Ads y el kit para montar las campañas (audiencias, estructura de cuenta, copys, medición, B2B y pendientes).
+Todo lo necesario para lanzar la campaña de **lasañas y empanadas congeladas listas para hornear**: 8 contenidos orgánicos, 2 carruseles de Ads y el kit para montar las campañas (audiencias, estructura de cuenta, copys, medición, B2B y pendientes).
 
 > **Ver la parrilla:** https://werockagencia.github.io/yo-amo-la-empanada-contenidos-octubre/ (carruseles, captions con botón "Copiar", calendario y pendientes). En local: abrir `index.html` (versión liviana en `web/`) o `completo.html` (PNG a tamaño completo).
 

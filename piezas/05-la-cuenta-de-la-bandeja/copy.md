@@ -28,7 +28,7 @@ Gourmet x5 a $19.900 (en vez de $25.000). Tradicional x5 a $12.900 (en vez de $1
 2. Fondo crema. "Cinco empanadas por menos." $25.000 tachado frente a $19.900 en cinta roja; sello "Ahorras $5.100 por bandeja"; "$3.980 cada empanada".
 3. Fondo negro. "Lo de siempre, más barato." $17.500 tachado frente a $12.900; sello "Ahorras $4.600 por bandeja"; "$2.580 cada empanada".
 4. Fondo rojo. "Quedan en tu congelador": siempre a mano, cuando tú quieras, para compartir.
-5. Fondo arena. Resumen de precios: Gourmet x5 $19.900, Tradicional x5 $12.900, Lasaña lista para calentar $19.900, y el WhatsApp 300 516 2421.
+5. Fondo arena. Resumen de precios: Gourmet x5 $19.900, Tradicional x5 $12.900, Lasaña lista para hornear $19.900, y el WhatsApp 300 516 2421.
 
 ## Notas
 - **Validar con el cliente antes de publicar:** el "ahorras" compara la empanada suelta (al horno, $5.000 / $3.500) con la bandeja congelada x5. Es aritmética sobre sus propios precios, pero confirmar que quieren mostrarla así.

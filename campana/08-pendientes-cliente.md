@@ -10,8 +10,9 @@ Todo lo que **no se pudo confirmar** y por lo tanto no se afirma (o se afirma co
 - ☐ **Lista de precios al por mayor** y pedido mínimo.
 
 ## Producto
-- ☐ **Instrucciones de horneado de las empanadas** (temperatura y tiempo). La lasaña ya está resuelta: ~5 min de microondas.
-- ☑ Lasaña: 450 g aprox., horneada y congelada, ~5 min de microondas (confirmado por el cliente).
+- ☐ **Lasaña horneada y congelada (lista para calentar, ~5 min en microondas, 450 g aprox.):** ¿se vende como producto aparte de la "lista para hornear" de $19.900? Confirmar **precio** y si entra a la campaña. Hasta entonces no se promociona; en el sitio aparece con "precio por confirmar".
+- ☐ **Instrucciones de horneado** (temperatura y tiempo) para empanadas y lasaña congeladas.
+- ☐ **Peso real de la lasaña** (el brief decía ≈ 450 g; no se menciona en las piezas).
 - ☐ ¿La bandeja x5 puede llevar **sabores mezclados**? Hoy el sitio vende un sabor por bandeja.
 - ☐ **Vida útil en congelación** y recomendaciones de almacenamiento.
 - ☐ **Bebidas:** sabores de Té Hatsu disponibles y fotos propias (las del sitio son de producto, referenciales).

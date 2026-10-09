@@ -5,7 +5,7 @@ Dos mercados, una regla: **la pauta abre conversaciones; la venta se cierra habl
 ## A. Tiendas, minimercados, supermercados y cafeterías
 
 ### Producto para el canal
-Bandejas x5 congeladas con etiqueta de marca (Gourmet y Tradicional) y lasaña congelada lista para calentar (450 g). Ver Nº 07 y fotos en `assets/photos/`.
+Bandejas x5 congeladas con etiqueta de marca (Gourmet y Tradicional) y lasaña lista para hornear. Ver Nº 07 y fotos en `assets/photos/`.
 
 ### Lista de prospectos (en 1 día)
 1. Google Maps: buscar "tienda", "minimercado", "supermercado", "panadería", "cafetería" en Cajicá, Chía, Sopó, Tabio, Tenjo, Cota y Zipaquirá.

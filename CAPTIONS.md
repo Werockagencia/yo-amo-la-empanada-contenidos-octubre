@@ -68,7 +68,7 @@ Tenemos dos formas de disfrutar nuestras empanadas:
 
 Bandeja Gourmet x5 · $19.900
 Bandeja Tradicional x5 · $12.900
-Lasaña de res o pechuga, lista en 5 minutos de microondas · $19.900
+Lasaña lista para hornear · $19.900
 
 Pedirlas es fácil: eliges, envías el pedido por WhatsApp y te confirmamos la entrega.
 
@@ -94,7 +94,7 @@ Mira cómo se estira. 🧀
 
 Nuestra lasaña, de res o de pechuga, con el queso bien gratinado. Tú escoges cómo:
 
-• Lista para calentar (congelada, unos 5 minutos en el microondas) · $19.900
+• Lista para hornear (congelada, para tu casa) · $19.900
 • Al horno (recién horneada, para comer hoy) · $23.900
 
 ¿Res o pechuga? Te leemos en comentarios 👇
@@ -106,7 +106,7 @@ Nuestra lasaña, de res o de pechuga, con el queso bien gratinado. Tú escoges c
 
 ### Versión corta
 
-Lasaña de res o pechuga con el queso que se estira. Lista para calentar $19.900 · Al horno $23.900. Pide al 300 516 2421.
+Lasaña de res o pechuga con el queso que se estira. Lista para hornear $19.900 · Al horno $23.900. Pide al 300 516 2421.
 
 ### Hashtags
 

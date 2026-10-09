@@ -5,17 +5,18 @@
 IG/FB: @yoamolaempanada · WhatsApp de pedidos: **300 516 2421** (573005162421)
 
 ## Objetivo
-Vender **empanadas congeladas listas para hornear y lasañas horneadas y congeladas listas para calentar**, y abrir dos canales nuevos: **eventos/reuniones** y **tiendas y supermercados**. Todo pedido termina en una conversación de WhatsApp (sin pago en línea).
+Vender **lasañas y empanadas congeladas listas para hornear**, y abrir dos canales nuevos: **eventos/reuniones** y **tiendas y supermercados**. Todo pedido termina en una conversación de WhatsApp (sin pago en línea).
 
 ## Qué vendemos (precios del flyer de octubre 2026)
 | Producto | Formato | Precio |
 |---|---|---|
 | Bandeja Gourmet x5 | Congelada, lista para hornear · 7 sabores | **$19.900** ($3.980 c/u) |
 | Bandeja Tradicional x5 | Congelada, lista para hornear · 2 sabores | **$12.900** ($2.580 c/u) |
-| Lasaña congelada (res o pechuga) | Horneada y congelada, **lista para calentar** (~5 min en microondas) · 450 g aprox. | **$19.900** |
+| Lasaña lista para hornear | Congelada · res o pechuga | **$19.900** |
+| Lasaña horneada y congelada | **Lista para calentar** (~5 min en microondas) · res o pechuga · 450 g aprox. | *Precio por confirmar* |
 | Empanada gourmet | Al horno, por unidad | $5.000 |
 | Empanada tradicional | Al horno, por unidad | $3.500 |
-| Lasaña al horno (res o pechuga) | Recién horneada · para comer hoy | $23.900 |
+| Lasaña al horno | Recién horneada · res o pechuga | $23.900 |
 | Al por mayor | Por unidad o en bandejas | Pregunta por precios (lista pendiente) |
 | Bebidas | Coca-Cola, Coca-Cola Zero, Colombiana, Brisa (maracuyá, manzana, lima-limón), Té Hatsu, Hit (mora, mango, tropical) · 200–250 ml | **$3.000** c/u |
 

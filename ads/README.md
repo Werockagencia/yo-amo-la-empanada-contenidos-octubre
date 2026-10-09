@@ -17,7 +17,7 @@ Son **dos hipótesis distintas** para la misma venta. En la primera semana corre
 ## Los 2 reels: qué necesita producción de nosotros
 Cuando entreguen los videos, solo falta cargarlos con este kit:
 - **Texto principal** (elegir uno según el reel):
-  - *Reel de lasaña:* "Mira cómo se estira. 🧀 Lasaña de res o pechuga: lista para calentar ($19.900) o al horno ($23.900). Pídela por WhatsApp. 📍 Cajicá"
+  - *Reel de lasaña:* "Mira cómo se estira. 🧀 Lasaña de res o pechuga: lista para hornear ($19.900) o al horno ($23.900). Pídela por WhatsApp. 📍 Cajicá"
   - *Reel de empanadas:* "No las freímos. Las horneamos. 🔥 9 sabores, bajas en grasa. Bandejas x5 listas para hornear desde $12.900. Pide por WhatsApp. 📍 Cajicá"
 - **Titular:** "Pide por WhatsApp" · **CTA:** "Enviar mensaje de WhatsApp" o "Pedir ahora".
 - **Especificaciones:** 9:16, 1080×1920, subtítulos incrustados (se ve sin sonido), gancho en los primeros 3 segundos, texto importante fuera de las zonas de interfaz (arriba ~250 px, abajo ~340 px). Portada 4:5 centrada para la cuadrícula del perfil.
