@@ -1,0 +1,53 @@
+/* Anuncios fotográficos: la foto ocupa todo el lienzo y el texto es mínimo, dentro de la zona segura 1:1 (y 135–1215). */
+.ad .scene { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.ad .shade { position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(10,6,3,.78) 0%, rgba(10,6,3,.34) 17%, rgba(10,6,3,0) 33%, rgba(10,6,3,0) 66%, rgba(10,6,3,.62) 84%, rgba(10,6,3,.86) 100%); }
+.ad.light .shade { background: linear-gradient(180deg, rgba(255,250,240,.9) 0%, rgba(255,250,240,.45) 17%, rgba(255,250,240,0) 32%, rgba(255,250,240,0) 68%, rgba(250,240,220,.78) 100%); }
+.ad .lg-mark { position: absolute; top: 150px; left: var(--pad); z-index: 20; }
+.ad .top { position: absolute; left: var(--pad); right: var(--pad); top: 250px; z-index: 10; text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+.ad.light .top { text-shadow: none; }
+.ad .bot { position: absolute; left: var(--pad); right: var(--pad); bottom: 138px; z-index: 10; text-shadow: 0 3px 20px rgba(0,0,0,.5); }
+.ad.light .bot { text-shadow: none; }
+.ad h1, .ad h2 { color: #fff; }
+.ad.light h1, .ad.light h2 { color: var(--ink); }
+.ad h1 { font-size: 118px; }
+.ad h2 { font-size: 92px; }
+.ad h1 em, .ad h2 em { font-style: normal; color: #ffb347; }
+.ad.rojo h1 em, .ad.rojo h2 em { color: #ffe3a6; }
+.ad.light h1 em, .ad.light h2 em { color: var(--red); }
+.ad .kick { margin-bottom: 18px; color: #f3d58a; }
+.ad.light .kick { color: var(--red); }
+.ad .sub { margin-top: 18px; font: 600 40px/1.25 var(--sans); color: #ffe3b8; }
+.ad p.t { font: 500 33px/1.4 var(--sans); max-width: 800px; color: #fff; }
+.ad.light p.t { color: var(--ink-2); }
+.ad .row { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+.ad .ribbon { font-size: 88px; padding: 20px 76px; box-shadow: 0 16px 34px rgba(0,0,0,.4); text-shadow: none; }
+.ad .each { font: 600 31px/1.25 var(--sans); }
+.ad .each b { display: block; font: 400 44px/1 var(--display); }
+.ad .chip { display: inline-block; font: 700 30px/1 var(--sans); background: rgba(255,255,255,.94); color: var(--ink); padding: 18px 28px; border-radius: 999px; text-shadow: none; }
+.ad .chip b { color: var(--red); font-family: var(--display); font-weight: 400; margin-left: 8px; }
+.ad .steps { list-style: none; display: grid; gap: 34px; }
+.ad .steps li { display: grid; grid-template-columns: 84px 1fr; gap: 22px; align-items: center; }
+.ad .steps .n { width: 84px; height: 84px; border-radius: 50%; background: #fff; color: var(--red); font: 400 48px/1 var(--display); display: grid; place-items: center; box-shadow: 0 10px 24px rgba(0,0,0,.35); text-shadow: none; }
+.ad .steps b { display: block; font: 400 42px/1.05 var(--display); margin-bottom: 4px; }
+.ad .steps span:not(.n) { font: 500 28px/1.3 var(--sans); }
+.ad .wa { font-size: 38px; padding: 28px 48px; text-shadow: none; }
+.ad .num-wa { font-size: 74px; margin-top: 22px; }
+.ad .loc { font: 500 30px/1.4 var(--sans); margin-top: 14px; opacity: .95; }
+.ad .center { text-align: center; }
+
+/* Texto agrupado abajo */
+.ad .copy { position: absolute; left: var(--pad); right: var(--pad); bottom: 138px; z-index: 10; text-shadow: 0 3px 20px rgba(0,0,0,.55); }
+.ad.light .copy { text-shadow: none; }
+.ad .copy h1 { font-size: 100px; margin-bottom: 18px; }
+.ad .copy h2 { font-size: 84px; margin-bottom: 20px; }
+.ad .copy .row { margin-bottom: 18px; }
+.ad .copy p.t { max-width: 900px; }
+.ad .copy.center { text-align: center; }
+.ad .copy .wa { margin-top: 10px; }
+.ad .shade { background: linear-gradient(180deg, rgba(10,6,3,.7) 0%, rgba(10,6,3,0) 18%, rgba(10,6,3,0) 52%, rgba(10,6,3,.7) 70%, rgba(10,6,3,.92) 100%); }
+.ad.light .shade { background: linear-gradient(180deg, rgba(255,250,240,.8) 0%, rgba(255,250,240,0) 18%, rgba(255,250,240,0) 55%, rgba(250,240,220,.85) 76%, rgba(244,232,205,.95) 100%); }
+.ad .copy .steps { gap: 22px; margin-top: 6px; }
+.ad .copy .steps li { grid-template-columns: 72px 1fr; }
+.ad .copy .steps .n { width: 72px; height: 72px; font-size: 40px; }
+.ad .copy .steps b { font-size: 36px; }
+.ad .copy .steps span:not(.n) { font-size: 26px; }
