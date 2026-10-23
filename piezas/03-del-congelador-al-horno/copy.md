@@ -30,11 +30,11 @@ Bandejas x5 listas para hornear: Gourmet $19.900 · Tradicional $12.900 · Lasa�
 2. Pantalla dividida: arriba, un plato de empanadas ("Al horno, hoy"); abajo sobre fondo rojo, la bandeja congelada ("Listas para hornear").
 3. Bandeja Gourmet x5 a $19.900 (a $3.980 cada una) con los siete sabores disponibles.
 4. Bandeja Tradicional x5 a $12.900 (a $2.580 cada una) con los sabores carne arroz y pollo arroz.
-5. Lasaña gratinada en bandeja de aluminio, vista desde arriba. Texto: "La lasaña, también. $19.900." Foto referencial.
+5. Lasaña gratinada en bandeja de aluminio, vista desde arriba. Texto: "La lasaña, también. $19.900."
 6. Tres pasos numerados: Elige, Envía por WhatsApp, Recibe o recoge; botón de WhatsApp con el 300 516 2421.
 
 ## Notas
 - **Pendiente del cliente:** instrucciones de horneado (temperatura y tiempo) para una pieza futura "Cómo hornearlas"; hoy no se publican porque no las tenemos.
 - Las fotos de la bandeja tienen el WhatsApp de la etiqueta corregido a 300 516 2421 (retoque en `scripts/prep-assets.mjs`). La etiqueta impresa aún dice 301 477 0177: reimprimir antes de entregar a tiendas.
-- Slide 5 usa foto de stock (marcada "Foto referencial"); reemplazar por foto real de la lasaña.
+- Slide 5: foto propia de la lasaña.
 - Slide 6 menciona el menú online: publicar cuando el sitio nuevo esté en línea (o cambiar "en nuestro menú online" por "por WhatsApp").

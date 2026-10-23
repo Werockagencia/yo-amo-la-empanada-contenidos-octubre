@@ -123,7 +123,7 @@ ${plan.map((p) => `<tr><td>${p.n}</td><td><a href="#n${p.n}">${esc(p.title)}</a>
 <tr><td>Reseñas</td><td>Permiso de las personas citadas en el Nº 08</td></tr>
 <tr><td>Canal tiendas</td><td>Lista de precios mayorista, pedido mínimo, vida útil y registros sanitarios</td></tr>
 </table></section>
-<footer>Piezas diseñadas en HTML/CSS con la tipografía de la marca y exportadas a PNG. Las fotos marcadas "Foto referencial" son de stock (Pexels, uso comercial gratuito).</footer>
+<footer>Piezas diseñadas en HTML/CSS con la tipografía de la marca y exportadas a PNG.</footer>
 </div>
 <script>document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',async()=>{const t=document.getElementById(b.dataset.t).innerText;try{await navigator.clipboard.writeText(t);b.textContent='¡Copiado!';b.classList.add('ok');setTimeout(()=>{b.textContent='Copiar';b.classList.remove('ok')},1600)}catch(e){b.textContent='Selecciona y copia'}}));</script>
 </body></html>`;

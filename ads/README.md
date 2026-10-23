@@ -35,5 +35,5 @@ Cuando entreguen los videos, solo falta cargarlos con este kit:
 ## Reglas de los anuncios con carrusel
 - Máximo **20 % de texto** como guía de legibilidad; aquí el texto es parte del diseño, por eso la prueba de A/B es importante.
 - Todo el contenido está en la **zona segura 1:1** (y 135–1215 en el 4:5) para que no se corte.
-- Las fotos de stock llevan la etiqueta **"Foto referencial"**. No quitarla hasta tener foto propia.
+- Las fotos de lasaña y bandejas son propias (sesión de octubre 2026, recortadas sin fondo en `assets/photos/src/nuevas/`); `npm run prep` las compone sobre fondos de marca.
 - Para exportar de nuevo: `npm run render -- ads` (genera 4:5 y 1:1).

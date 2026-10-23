@@ -19,7 +19,7 @@ Todo lo que **no se pudo confirmar** y por lo tanto no se afirma (o se afirma co
 - ☐ Sustento de **"Bajas en grasa"** si alguien lo pregunta (está en su etiqueta y flyer).
 
 ## Material
-- ☐ **Foto real de la lasaña** (la actual es stock con etiqueta "Foto referencial") y **video original** del queso estirado.
+- ☑ Foto real de la lasaña (octubre 2026). ☐ Video original del queso estirado.
 - ☐ Foto propia de **cada sabor** (hoy solo 4 tienen foto: res, pechuga, jamón y queso, hawaiana).
 - ☐ **Permiso de las personas** de las reseñas de Nº 08 para citarlas y etiquetarlas.
 - ☐ Logo en archivo vectorial o PNG con transparencia (hoy se reconstruye en HTML a partir de la marca).

@@ -162,7 +162,7 @@ ${plan.map((p) => `<tr><td>${p.n}</td><td><a href="#n${p.n}">${esc(p.title)}</a>
 <tr><td>Reseñas</td><td>Permiso de las personas citadas en el Nº 08.</td></tr>
 <tr><td>Canal tiendas</td><td>Lista de precios al por mayor, pedido mínimo, vida útil y registros sanitarios.</td></tr>
 </table></div></section>
-<footer>Piezas diseñadas con la tipografía y los colores de la marca. Las fotos marcadas "Foto referencial" son de stock (Pexels, uso comercial gratuito).</footer>
+<footer>Piezas diseñadas con la tipografía y los colores de la marca.</footer>
 </div>
 <script>
 document.querySelectorAll('.copy').forEach(function(b){

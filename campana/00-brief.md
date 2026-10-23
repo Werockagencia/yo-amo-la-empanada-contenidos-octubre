@@ -38,7 +38,7 @@ Los 9 sabores: 1 Res · 2 Pechuga · 3 Pechuga, Queso · 4 Jamón ahumado, Queso
 ## Lo que NO hacemos
 - No inventar reseñas, cifras de salud (calorías, % de grasa) ni claims de "saludable/light".
 - No usar la lista de precios del sitio viejo (desactualizada).
-- Las fotos de stock siempre con etiqueta "Foto referencial" hasta tener foto real.
+- Fotos de lasaña y bandejas: propias (octubre 2026). Las bebidas siguen siendo referenciales.
 - No mencionar la tecnología que atiende el WhatsApp: para el cliente final es "nuestro WhatsApp".
 
 ## Piezas y fechas

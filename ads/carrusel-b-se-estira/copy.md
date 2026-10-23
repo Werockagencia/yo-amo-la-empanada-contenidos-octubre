@@ -32,6 +32,5 @@
 - **Nombre del anuncio:** `AD_Carrusel-B_Se-Estira_V1` (V2, V3 según texto).
 
 ## A validar antes de publicar
-- Tarjetas 1 y 2 usan fotos de stock ("Foto referencial"). La tarjeta 3 es un frame real del video del local. **Cuando haya foto/video real, reemplazar 1 y 2** (o usar el video original como anuncio de video aparte).
+- Tarjetas 1 y 2: fotos propias de la lasaña (sesión de octubre 2026), la 3 también. Pendiente: video original del queso estirado.
 - Precios y "recién horneada en el local" (el cliente ofrece lasaña al horno por $23.900).
-- Política de Meta para anuncios de alimentos: las fotos de stock están permitidas, pero conviene que el producto final se parezca a lo mostrado (de ahí la etiqueta "Foto referencial").

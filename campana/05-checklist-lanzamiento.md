@@ -28,7 +28,7 @@ Marcar antes de gastar el primer peso. ☐ = pendiente.
 - ☐ Carrusel A y B revisados por el cliente (precios y textos).
 - ☐ Carruseles cargados en 4:5 y 1:1, con orden manual de tarjetas.
 - ☐ 2 reels cargados con subtítulos, 9:16 y portada.
-- ☐ Todas las fotos de stock con etiqueta "Foto referencial" (o reemplazadas por fotos reales).
+- ☐ Fotos de bebidas referenciales marcadas como tal (lasaña y bandejas ya son fotos propias).
 - ☐ 3 versiones de texto principal por carrusel cargadas.
 - ☐ Revisión de políticas de Meta: sin afirmaciones de salud no sustentadas (solo la frase de la etiqueta), sin texto engañoso.
 

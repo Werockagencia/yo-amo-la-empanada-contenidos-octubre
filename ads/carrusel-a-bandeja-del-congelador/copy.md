@@ -36,6 +36,6 @@
 
 ## A validar antes de publicar
 - Precios vigentes (flyer oct. 2026) y que el "$3.980 / $2.580 cada una" sea aceptable como cálculo.
-- Tarjeta 4 usa foto de stock ("Foto referencial"). Reemplazar por foto real de la lasaña apenas exista.
+- Tarjeta 4: foto propia de la lasaña (sesión de octubre 2026).
 - "Domicilio o recoge en el local" (tarjeta 6) y "te confirmamos la entrega": confirmar zonas y costo de domicilio.
 - La etiqueta de la bandeja en las fotos tiene el WhatsApp corregido (retoque digital). Reimprimir la etiqueta real.

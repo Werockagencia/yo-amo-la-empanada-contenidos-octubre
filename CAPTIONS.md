@@ -102,8 +102,6 @@ Nuestra lasaña, de res o de pechuga, con el queso bien gratinado. Tú escoges c
 📍 La Séptima, Cl. 7 #4-79, Cajicá (al lado del parasol rojo)
 📲 Pedidos por WhatsApp: 300 516 2421
 
-*Las dos primeras imágenes son fotos referenciales.
-
 ### Versión corta
 
 Lasaña de res o pechuga con el queso que se estira. Lista para hornear $19.900 · Al horno $23.900. Pide al 300 516 2421.
