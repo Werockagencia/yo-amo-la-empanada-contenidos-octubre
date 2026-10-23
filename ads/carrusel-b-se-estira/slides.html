@@ -5,6 +5,16 @@
 <title>Ad · Carrusel B · Se estira — Yo Amo la Empanada</title>
 <link rel="stylesheet" href="../../assets/css/yale.css">
 <link rel="stylesheet" href="../../assets/css/ads-foto.css">
+<style>
+  .b6-stack { position: absolute; left: var(--pad); right: var(--pad); top: 230px; bottom: 150px; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 30px; }
+  .b6-stack .logo { transform: scale(2.1); margin-bottom: 70px; }
+  .b6-stack h2 { font-size: 118px; color: #fff; }
+  .b6-stack h2 em { font-style: normal; color: #ffe3a6; }
+  .b6-sub { font: 500 34px/1.4 var(--sans); color: #fff; opacity: .95; }
+  .b6-stack .wa { margin-top: 18px; font-size: 40px; padding: 30px 54px; }
+  .b6-stack .num-wa { font-size: 78px; color: #fff; }
+  .b6-stack .loc { color: #fff; }
+</style>
 </head>
 <body>
 
@@ -43,11 +53,16 @@
   <div class="copy"><h2 class="display">Elige cómo <em>la quieres.</em></h2><div class="row"><span class="chip">Lista para hornear<b>$19.900</b></span><span class="chip">Al horno<b>$23.900</b></span></div></div>
 </section>
 
-<!-- B6 · CTA -->
-<section class="slide bg-red on-dark ad rojo b6" data-file="B6-pide-la-tuya.png" data-nomast data-nofolio>
-  <img class="scene" src="../../assets/photos/escena-b6.jpg" alt="Lasaña con el queso estirado"><div class="shade"></div>
-  <div class="lg-mark"><span id="lg6"></span></div>
-  <div class="copy center"><h2 class="display">Pide la tuya <em>hoy.</em></h2><span class="wa"><i class="ic" data-ic="wa"></i>Pedir por WhatsApp</span><div class="num-wa">300 516 2421</div><div class="loc">Cajicá · Domicilio o recoge en el local</div></div>
+<!-- B6 · CTA (plano, de marca) -->
+<section class="slide bg-red hearts ad rojo b6" data-file="B6-pide-la-tuya.png" data-nomast data-nofolio>
+  <div class="b6-stack">
+    <span id="lg6"></span>
+    <h2 class="display">Pide la tuya <em>hoy.</em></h2>
+    <p class="b6-sub">Lasaña de res o de pechuga · Empanadas al horno</p>
+    <span class="wa"><i class="ic" data-ic="wa"></i>Pedir por WhatsApp</span>
+    <div class="num-wa">300 516 2421</div>
+    <div class="loc">Cajicá · Domicilio o recoge en el local</div>
+  </div>
 </section>
 
 <script src="../../assets/js/slide.js"></script>
